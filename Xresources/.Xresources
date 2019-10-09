@@ -1,0 +1,69 @@
+URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select
+URxvt.urlButton: 1
+URxvt.underlineURLs: True
+
+URxvt*depth: 32
+!URxvt*background: rgba:0000/0000/0000/7800 (transparency)
+URxvt.background: #1a1a1a
+URxvt.saveLines: 2000
+URxvt.scrollBar: False
+URxvt.scrollstyle: rxvt
+URxvt.termName: xterm-256color
+URxvt.urgentOnBell: True
+URxvt.cursorBlink: False
+URxvt.foreground: #ffffff
+URxvt.font: xft:Hack:pixelsize=14
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+! special
+
+! Special
+*.background:       #ffffff
+*.foreground:       #ffffff
+*.accent:           #ffffff
+*.cursorColor:      #03a9f4
+
+! black
+URxvt.color0  : #2E3436
+URxvt.color8  : #555753
+! red
+URxvt.color1  : #CC0000
+URxvt.color9  : #EF2929
+! green
+URxvt.color2  : #4E9A06
+URxvt.color10 : #8AE234
+! yellow
+URxvt.color3  : #C4A000
+URxvt.color11 : #FCE94F
+! blue
+URxvt.color4  : #009ddc
+URxvt.color12 : #009ddc
+! magenta
+URxvt.color5  : #75507B
+URxvt.color13 : #AD7FA8
+! cyan
+URxvt.color6  : #06989A
+URxvt.color14 : #34E2E2
+! white
+URxvt.color7  : #D3D7CF
+URxvt.color15 : #EEEEEC
+
+
+
+Xcursor.size: 16
+
+!  ROFI
+
+rofi.show-icons:            true
+rofi.modi:                  drun,run,window,ssh
+rofi.lines:                 5
+rofi.line-padding:          7
+rofi.matching:              fuzzy
+rofi.bw:                    0
+rofi.padding:               0
+rofi.separator-style:       none
+rofi.hide-scrollbar:        true
+rofi.line-margin:           0
+rofi.font:                  Hack 14
+rofi.theme:		    ~/.config/rofi/config.rasi

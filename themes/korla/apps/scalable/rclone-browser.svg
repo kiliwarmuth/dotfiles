@@ -1,0 +1,14 @@
+<svg style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <path d="m45.668 8.56c0-3.438-2.79-6.228-6.228-6.228h-30.88c-3.438 0-6.228 2.79-6.228 6.228v30.88c0 3.438 2.79 6.228 6.228 6.228h30.88c3.438 0 6.228-2.79 6.228-6.228v-30.88z" style="fill:url(#_Linear1)"/>
+ <path d="m10.406 24c0-3.602 1.434-7.062 3.983-9.611s6.009-3.983 9.611-3.983 7.062 1.434 9.611 3.983 3.983 6.009 3.983 9.611-1.434 7.062-3.983 9.611-6.009 3.983-9.611 3.983-7.062-1.434-9.611-3.983-3.983-6.009-3.983-9.611zm4.078 0c0-2.522 1.006-4.948 2.787-6.729s4.207-2.787 6.729-2.787 4.948 1.006 6.729 2.787 2.787 4.207 2.787 6.729-1.006 4.948-2.787 6.729-4.207 2.787-6.729 2.787-4.948-1.006-6.729-2.787-2.787-4.207-2.787-6.729z" style="fill:url(#_Linear2)"/>
+ <defs>
+  <linearGradient id="_Linear1" x2="1" gradientTransform="matrix(.828264 -43.2326 43.2326 .828264 523.036 55.1128)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#303a45" offset="0"/>
+   <stop style="stop-color:#4a535f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="_Linear2" x2="1" gradientTransform="matrix(1.66475e-15,27.1875,-27.1875,1.66475e-15,-1498.5,10.4063)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#cb00f2" offset="0"/>
+   <stop style="stop-color:#0575e6" offset="1"/>
+  </linearGradient>
+ </defs>
+</svg>

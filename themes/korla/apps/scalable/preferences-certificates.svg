@@ -1,0 +1,20 @@
+<svg style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <path d="m47.312 10.595c0-0.976-0.388-1.911-1.077-2.601-0.69-0.691-1.627-1.079-2.603-1.079h-39.264c-0.976 0-1.913 0.388-2.603 1.079-0.689 0.69-1.077 1.625-1.077 2.601v27.823c0 0.976 0.388 1.911 1.077 2.602 0.69 0.69 1.627 1.078 2.603 1.078h39.264c0.976 0 1.913-0.388 2.603-1.078 0.689-0.691 1.077-1.626 1.077-2.602v-27.823z" style="fill-opacity:.9"/>
+ <path d="m47.312 9.381c0-1.921-1.557-3.479-3.479-3.479h-39.666c-1.922 0-3.479 1.558-3.479 3.479v28.225c0 1.921 1.557 3.479 3.479 3.479h39.666c1.922 0 3.479-1.558 3.479-3.479v-28.225z" style="fill:url(#_Linear1)"/>
+ <path d="m7.925 15.197l17.605 20.98 0.139-9.939 10.255 1.353 0.118-0.099-17.671-21.06-10.446 8.765z" style="fill-rule:nonzero;fill:url(#_Linear2)"/>
+ <path d="m24.035 19.411l-3.835-0.017-0.563 3.603-3.312-1.933-2.289 2.839-1.903-3.33-3.401 1.314 0.017-3.835-3.602-0.563 1.932-3.312-2.838-2.289 3.329-1.902-1.314-3.402 3.835 0.018 0.563-3.603 3.312 1.932 2.289-2.838 1.902 3.329 3.402-1.313-0.017 3.834 3.602 0.563-1.932 3.313 2.838 2.289-3.329 1.902 1.314 3.401z" style="fill-rule:nonzero;fill:url(#_Linear3)"/>
+ <defs>
+  <linearGradient id="_Linear1" x2="1" gradientTransform="matrix(2.21762e-15,-36.2165,36.2165,2.21762e-15,703.214,42.119)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#566069" offset="0"/>
+   <stop style="stop-color:#6c7884" offset="1"/>
+  </linearGradient>
+  <linearGradient id="_Linear2" x2="1" gradientTransform="matrix(11.7916,15.6625,-15.6625,11.7916,19.0422,16.5951)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#3077e1" offset="0"/>
+   <stop style="stop-color:#5df" offset="1"/>
+  </linearGradient>
+  <linearGradient id="_Linear3" x2="1" gradientTransform="matrix(-.330256 -21.6865 21.6865 -.330256 14.9568 23.219)" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#da9517" offset="0"/>
+   <stop style="stop-color:#ffee58" offset="1"/>
+  </linearGradient>
+ </defs>
+</svg>

@@ -1,0 +1,173 @@
+:root {
+    --background: #1a1a1a;
+    --foreground: #d8dee8;
+    --accent: #2979FF;
+}
+
+#navigator-toolbox {
+    border: none !important;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: -1px !important;
+}
+
+
+/* Background colors */
+
+#nav-bar,
+#urlbar,
+#urlbar-results,
+#PersonalToolbar,
+#tabbrowser-tabs,
+#tabbrowser-tabs .tabbrowser-tab[selected] .tab-content,
+#tabbrowser-tabs .tabbrowser-tab:hover:not([selected]) .tab-content {
+    background: var(--background) !important;
+}
+
+#urlbar:hover,
+.searchbar-textbox:hover {
+    background-color: rgba(130, 130, 130, 0.12) !important;
+    opacity: 0.7;
+    transition: 0.1s linear;
+}
+
+
+/* Tab inactive text color */
+
+.tabbrowser-tab:not([selected]) .tab-content {
+    color: rgba(130, 130, 130, 1.0) !important;
+}
+
+
+/* Hide Icons */
+
+#star-button,
+#pageActionButton,
+#page-action-buttons,
+#reader-mode-button,
+#tabbrowser-tabs .tabbrowser-tab .tab-close-button,
+.tabbrowser-tab::before,
+.tabbrowser-tab::after {
+    display: none !important;
+    ;
+}
+
+
+/* Rounded urlbar */
+
+#urlbar,
+.searchbar-textbox {
+    border: 0 !important;
+    border-radius: 2em !important;
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0) !important;
+    background-color: unset;
+}
+
+
+/* Hide black lines */
+
+#navigator-toolbox {
+    border: none !important;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: -1px !important;
+}
+
+#nav-bar {
+    margin-bottom: -1px !important;
+}
+
+#TabsToolbar,
+#nav-bar {
+    border: none !important;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0) !important;
+}
+
+#PersonalToolbar {
+    transform: scaleY(1.07) !important;
+}
+
+.bookmark-item {
+    transform: scaleY(0.934579) !important;
+    padding: 5px !important;
+    border-radius: 2em !important;
+    transition: 0.2s ease-in !important;
+}
+
+.bookmark-item:hover {
+    background-color: rgba(130, 130, 130, 0.12) !important;
+    transition: 0.1s linear !important;
+}
+
+.bookmark-item:active {
+    background-color: rgba(130, 130, 130, 0.2) !important;
+}
+
+.browserContainer>findbar {
+    opacity: 0.99999 !important;
+    border: none !important;
+    box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+
+/* Autohide bookmarks */
+
+#PersonalToolbar {
+    margin-top: -30px !important;
+    transition: margin 0.1s linear !important;
+    position: fixed !important;
+    width: 100%;
+}
+
+#navigator-toolbox:hover #PersonalToolbar {
+    margin-top: 0px !important;
+}
+
+#nav-bar {
+    z-index: 1;
+}
+
+
+/* icon default state */
+
+.toolbarbutton-icon {
+    background: unset !important;
+    box-shadow: unset !important;
+    border: 0 !important;
+    fill: rgba(130, 130, 130, 1.0) !important;
+}
+
+
+/* icon disabled state */
+
+.toolbarbutton-1[disabled]:not(#stop-button):not(#reload-button)>.toolbarbutton-icon {
+    opacity: 0.5 !important;
+}
+
+#back-button[disabled]:active>.toolbarbutton-icon {
+    opacity: 1.0 !important;
+    fill: rgba(229, 76, 45, 1.0) !important;
+    transition: none !important;
+}
+
+#forward-button[disabled]:active>.toolbarbutton-icon {
+    opacity: 1.0 !important;
+    fill: rgba(229, 76, 45, 1.0) !important;
+    transition: none !important;
+}
+
+
+/* icon enabled state */
+
+.toolbarbutton-1:not(#stop-button):hover:not([disabled])>.toolbarbutton-icon {
+    fill: var(--accent) !important;
+    transition: 0.1s ease-in;
+}
+
+.toolbarbutton-1>.toolbarbutton-icon:not(:hover) {
+    background-color: transparent;
+    transition: 0.2s ease-in !important;
+}
+
+.toolbarbutton-1:active:not([disabled])>.toolbarbutton-icon {
+    filter: brightness(75%);
+    transition: none !important;
+}

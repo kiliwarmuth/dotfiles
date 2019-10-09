@@ -1,0 +1,6 @@
+Copy "chrome" to the profil folder.
+In my case ~/.mozilla/firefox/jv6.../
+
+Tuning in about:config
+- toolkit.legacyUserProfileCustomizations.stylesheets set to true (for css themes)
+- backspace.action set to 0

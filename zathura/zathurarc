@@ -1,0 +1,9 @@
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+map r reload
+map i recolor
+map p print
+set selection-clipboard clipboard
+set font "Hack 11"
+

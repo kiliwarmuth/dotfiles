@@ -1,0 +1,33 @@
+Extensions:
+- C/C++
+- LaTeX addons
+- Materical Icon Theme
+- One Dark Pro Monokai Darker Theme
+- vscode-pdf
+
+Add to config (workbench.color customizations):
+{
+    "editor.fontFamily": "'Hack', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'\",",
+    "workbench.colorTheme": "One Dark Pro Monokai Darker",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0,
+    "C_Cpp.updateChannel": "Insiders",
+    "window.menuBarVisibility": "toggle",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "workbench.colorCustomizations": {
+            "sideBar.background": "#1a1a1a",
+            "statusBar.background": "#1a1a1a",
+            "activityBar.background": "#1a1a1a",
+            "badge.background": "#1a1a1a",
+            "editor.background": "#1a1a1a",
+            "titleBar.inactiveBackground": "#1a1a1a",
+            "titleBar.activeBackground": "#1a1a1a",
+            "terminal.background": "#1a1a1a",
+            "tab.activeBackground": "#0f0f0f",
+            "tab.inactiveBackground": "#1a1a1a",
+        }
+    }
+
