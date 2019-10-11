@@ -16,7 +16,6 @@ URxvt.font: xft:Hack:pixelsize=14
 URxvt.urlLauncher: firefox
 URxvt.matcher.button: 1
 
-! special
 
 ! Special
 *.background:       #ffffff
@@ -43,8 +42,8 @@ URxvt.color12 : #009ddc
 URxvt.color5  : #75507B
 URxvt.color13 : #AD7FA8
 ! cyan
-URxvt.color6  : #06989A
-URxvt.color14 : #34E2E2
+URxvt.color6  : #03a9f4
+URxvt.color14 : #03a9f4
 ! white
 URxvt.color7  : #D3D7CF
 URxvt.color15 : #EEEEEC

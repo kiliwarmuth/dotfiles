@@ -99,20 +99,20 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias b="cd .."
 alias off="shutdown 0" 
-alias cds="cd ~/Dropbox/Studium"
+alias cds="cd ~/Dropbox/Studium/Semester_5"
 alias please="sudo"
 alias upd="sudo pacman -Syu"
 alias ls="ls --color=auto"
 alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt"
+alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/github_hp} &> /dev/null"
+alias dotfiles="cd ~/Dokumente/Github/dotfiles"
+alias c="clear"
+alias gac="git add . && git commit -a -m"
+
 # bindkeys
 bindkey "^[[7~" beginning-of-line
 bindkey "^[[8~" end-of-line
 
 
-#start keychain and for ssh
-if [[ -f ~/.keychain/$HOST-sh ]] && [[ $UID != "0" ]]
-then
-    keychain ~/.ssh/github_hp
-    . ~/.keychain/$HOST-sh > /dev/null
-fi
-
+#btw im using arch
+neofetch
