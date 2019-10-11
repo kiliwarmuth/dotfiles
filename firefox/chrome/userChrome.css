@@ -44,7 +44,6 @@
 #pageActionButton,
 #page-action-buttons,
 #reader-mode-button,
-#tabbrowser-tabs .tabbrowser-tab .tab-close-button,
 .tabbrowser-tab::before,
 .tabbrowser-tab::after {
     display: none !important;
