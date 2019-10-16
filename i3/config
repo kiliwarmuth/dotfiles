@@ -175,7 +175,7 @@ exec dropbox start
 exec --no-startup-id pulseaudio --start
 
 # load background
-exec_always --no-startup-id feh --bg-fill ~/Bilder/background.png
+exec_always --no-startup-id feh --bg-fill ~/Media/Bilder/background.png
 
 # change screen resolution and start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -186,7 +186,6 @@ for_window [class="Spotify"] move to workspace $ws9
 for_window [class="LibreOffice*"] move to workspace $ws7
 for_window [class="wireshark"] move to workspace $ws6
 for_window [class="code"] move to workspace $ws5
-for_window [class="VirtualBox"] move to workspace $ws5
 
 # brightness Keybindings
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
