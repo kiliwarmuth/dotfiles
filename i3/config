@@ -170,9 +170,6 @@ bindsym $mod+r mode "resize"
 # change to correct keyboard map
 exec --no-startup-id setxkbmap -layout de
 
-# change resolution to 1080p
-exec_always --no-startup-id ~/.config/i3/startup.sh
-
 # autostart 
 exec dropbox start
 exec --no-startup-id pulseaudio --start
@@ -180,7 +177,7 @@ exec --no-startup-id pulseaudio --start
 # load background
 exec_always --no-startup-id feh --bg-fill ~/Bilder/background.png
 
-# polybar
+# change screen resolution and start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # assign programs to workspaces
