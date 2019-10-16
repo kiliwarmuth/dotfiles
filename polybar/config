@@ -163,7 +163,7 @@ format-charging = <animation-charging> <label-charging>
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-padding = 1
 
-format-full-prefix = ""
+format-full-prefix = "  "
 format-full-prefix-foreground = #FFFFFF
 format-full-prefix-background = #006AD1
 
