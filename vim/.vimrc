@@ -1,2 +1,1 @@
-set number
 syntax on

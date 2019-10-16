@@ -109,10 +109,9 @@ alias dotfiles="cd ~/Dokumente/Github/dotfiles"
 alias c="clear"
 alias gac="git add . && git commit -a -m"
 
+alias updconfig="cp -rf ~/.config/i3/* ~/Dokumente/Github/dotfiles/i3 && cp -rf ~/.config/polybar/* ~/Dokumente/Github/dotfiles && cp -rf ~/.config/ranger/rc.conf ~/Dokumente/Github/dotfiles/ranger && cp -rf ~/.config/rofi/config.rasi ~/Dokumente/Github/dotfiles/rofi && cp -rf ~/.Xresources ~/Dokumente/Github/dotfiles/Xresources && cp -rf ~/.vimrc ~/Dokumente/Github/dotfiles/vim && cp -rf ~/.zshrc ~/Dokumente/Github/dotfiles/zsh && cp -rf ~/.oh-my-zsh/themes/robbyrussell.zsh-theme ~/Dokumente/Github/dotfiles/zsh && cp -rf ~/.config/zathura/zathurarc ~/Dokumente/Github/dotfiles/zathura"
+
 # bindkeys
 bindkey "^[[7~" beginning-of-line
 bindkey "^[[8~" end-of-line
 
-
-#btw im using arch
-neofetch

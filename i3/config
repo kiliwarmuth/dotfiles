@@ -140,7 +140,8 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec i3-msg exit
+bindsym $mod+Shift+e exec i3lock --color=0f0f0f
+bindsym $mod+Shift+q exec i3-msg exit
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -173,21 +174,17 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id setxkbmap -layout de
 
 # change resolution to 1080p
-#exec_always --no-startup-id  'xrandr --output eDP1 --mode 1920x1080'
 exec_always --no-startup-id ~/.config/i3/startup.sh
 
 # autostart 
 exec dropbox start
 exec --no-startup-id pulseaudio --start
-#exec_always --no-startup-id compton 
 
 # load background
-#exec_always --no-startup-id feh --bg-fill ~/Bilder/Arena.jpg
-exec_always --no-startup-id feh --bg-fill ~/Bilder/Background.png
+exec_always --no-startup-id feh --bg-fill ~/Bilder/background.png
 
 # polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
 
 # assign programs to workspaces
 for_window [class="Zathura"] move to workspace $ws3
@@ -218,6 +215,11 @@ gaps outer 0
 bindsym $mod+z		gaps inner current plus 5
 bindsym $mod+shift+z	gaps inner current minus 5
 
+# Only enable gaps on a workspace when there is at least one container
+smart_gaps on
+
 #autostart programs on specific workspace
-exec --no-startup-id i3-msg ' workspace 2; exec firefox; workspace 1; exec urxvt  -hold -e ranger; workspace 1; exec urxvt'
+exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+exec --no-startup-id i3-msg 'workspace 1; exec ~/.config/i3/ranger.sh'
+exec --no-startup-id i3-msg 'workspace 1; exec ~/.config/i3/neofetch.sh'
 

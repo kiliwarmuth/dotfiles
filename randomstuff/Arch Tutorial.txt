@@ -42,8 +42,6 @@ reboot
 
 
 wifi-menu
-pacman -S networkmanager
-systemctl enable NetworkManager.service
 useradd -m -g users -s /bin/bash kili
 passwd kili
 pacman -S sudo
@@ -57,14 +55,8 @@ systemctl enable cronie
 systemctl enable --now systemd-timesyncd.service -> check mit date
 hwclock -w
 
-pacman -S xorg-server xorg-xinit
-pacman -S xorg-drivers
-pacman -S xf86-input-synaptics
-pacman -S ttf-hack
+pacman -S (alle relevanten Programme)
 
-pacman -S firefox-i18n-de
-pacman -S pulseaudio
-pacman -S rxvt-unicode
-pacman -S git ssh xorg-xrandr vim
-change grub timeout to 0, sudo grub-mkconfig -o /boot/grub/grub.cfg
 reboot
+
+anschließend konfigurieren
