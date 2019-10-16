@@ -1,9 +1,7 @@
-URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select
 URxvt.urlButton: 1
 URxvt.underlineURLs: True
 
 URxvt*depth: 32
-!URxvt*background: rgba:0000/0000/0000/7800 (transparency)
 URxvt.background: #1a1a1a
 URxvt.saveLines: 2000
 URxvt.scrollBar: False
@@ -15,6 +13,10 @@ URxvt.foreground: #ffffff
 URxvt.font: xft:Hack:pixelsize=14
 URxvt.urlLauncher: firefox
 URxvt.matcher.button: 1
+
+! Common Keybinds for Navigations
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
 
 
 ! Special
@@ -47,8 +49,6 @@ URxvt.color14 : #03a9f4
 ! white
 URxvt.color7  : #D3D7CF
 URxvt.color15 : #EEEEEC
-
-
 
 Xcursor.size: 16
 
