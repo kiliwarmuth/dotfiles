@@ -39,6 +39,7 @@ neofetch
 nm-applet
 openssh
 playerctl
+polybar
 pulseaudio
 ranger
 rofi
