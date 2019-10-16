@@ -165,7 +165,7 @@ format-discharging-padding = 1
 
 format-full-prefix = "  "
 format-full-prefix-foreground = #FFFFFF
-format-full-prefix-background = #006AD1
+format-full-prefix-background = #DC143C
 
 format-charging-padding = 1
 
