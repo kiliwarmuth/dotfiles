@@ -115,7 +115,6 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = #FFFFFF
 label = %percentage:2%%
-;format-background = #1a1a1a
 format-padding = 1
 
 [module/memory]
@@ -124,7 +123,6 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = #FFFFFF
 label = %percentage_used%%
-;format-background = #1a1a1a
 format-padding = 1
 
 [module/wlan]
