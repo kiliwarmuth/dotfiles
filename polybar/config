@@ -35,6 +35,9 @@ shade8 = #90CAF9
 ashade8 = #2C2C2C
 
 [bar/topbar]
+
+locale = de_DE.UTF-8
+
 width = 100%
 height = 32
 radius = 1.0
@@ -140,13 +143,14 @@ ramp-signal-foreground = #FFFFFF
 format-connected-padding = 1
 
 [module/date]
+
 type = internal/date
 interval = 5
 
-date-alt = %A, %d %B
+date-alt =%A, %d.%B %Y
 time = %H:%M
 
-format-prefix = 
+format-prefix = ""
 format-prefix-foreground = #FFFFFF
 format-background = #006AD1
 format-padding = 2
