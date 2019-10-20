@@ -140,7 +140,7 @@ format-disconnected = 
 
 ramp-signal-0 = 
 ramp-signal-foreground = #FFFFFF
-format-connected-padding = 1
+format-connected-padding = 0
 
 [module/date]
 

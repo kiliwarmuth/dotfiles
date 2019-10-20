@@ -6,4 +6,6 @@ map i recolor
 map p print
 set selection-clipboard clipboard
 set font "Hack 11"
+set smooth-scroll "true"
+set scroll-step 50
 
