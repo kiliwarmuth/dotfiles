@@ -2,7 +2,7 @@
 
 - **Window Manager**: i3-gaps
 - **Bar**: polybar
-- **Termianl**: urxvt
+- **Terminal**: urxvt
 - **Shell**: zsh
 - **Menu**: rofi
 
