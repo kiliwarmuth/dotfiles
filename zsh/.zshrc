@@ -1,3 +1,15 @@
+# ================== #
+#  _________  _   _  #
+# |__  / ___|| | | | #
+#   / /\___ \| |_| | #
+#  / /_ ___) |  _  | #
+# /____|____/|_| |_| #
+#                    #
+# ================== #
+
+
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
