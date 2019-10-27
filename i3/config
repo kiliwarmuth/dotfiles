@@ -191,11 +191,13 @@ exec_always --no-startup-id feh --bg-fill ~/Media/Bilder/background.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # assign programs to workspaces
-for_window [class="Zathura"] move to workspace $ws3
+for_window [class="Evince"] move to workspace $ws3
 for_window [class="Spotify"] move to workspace $ws9
 for_window [class="LibreOffice*"] move to workspace $ws7
-for_window [class="wireshark"] move to workspace $ws6
 for_window [class="code"] move to workspace $ws5
+
+for_window [class="mpv"] floating enable
+for_window [class="calculator"] floating enable
 
 # brightness Keybindings
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
