@@ -10,15 +10,15 @@
         "editor.defaultFormatter": "James-Yu.latex-workshop"
     },
     "workbench.colorCustomizations": {
-            "sideBar.background": "#1a1a1a",
-            "statusBar.background": "#1a1a1a",
-            "activityBar.background": "#1a1a1a",
-            "badge.background": "#1a1a1a",
-            "editor.background": "#1a1a1a",
-            "titleBar.inactiveBackground": "#1a1a1a",
-            "titleBar.activeBackground": "#1a1a1a",
-            "terminal.background": "#1a1a1a",
-            "tab.activeBackground": "#0f0f0f",
-            "tab.inactiveBackground": "#1a1a1a"
+            "sideBar.background": "#141414",
+            "statusBar.background": "#141414",
+            "activityBar.background": "#141414",
+            "badge.background": "#141414",
+            "editor.background": "#141414",
+            "titleBar.inactiveBackground": "#141414",
+            "titleBar.activeBackground": "#141414",
+            "terminal.background": "#141414",
+            "tab.activeBackground": "#0d0d0d",
+            "tab.inactiveBackground": "#141414"
         }
     }

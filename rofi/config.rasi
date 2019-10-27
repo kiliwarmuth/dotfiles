@@ -1,14 +1,14 @@
 * {
-    backgroundcolor: #1a1a1a;
+    backgroundcolor: #141414;
     bg1: #ffffff;
-    backgroundcoloralternate: #1a1a1a;
-    separatorcolor: #1a1a1a;
+    backgroundcoloralternate: #141414;
+    separatorcolor: #141414;
     scrollbarcolor: #3b4252;
     foregroundcolor: #ffffff;
     foregroundcolorinverse: #ffffff;
     selectioncolor: #383838;
 
-    border-color: #1a1a1a;
+    border-color: #141414;
     background-color: @backgroundcolor;
     text-color: @foregroundcolor;
     margin: 5;
