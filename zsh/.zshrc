@@ -111,7 +111,6 @@ alias off="shutdown 0"
 alias cds="cd ~/Dropbox/Studium/Semester_5"
 alias please="sudo"
 alias upd="sudo pacman -Syu"
-alias ls="ls --color=auto"
 alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
 alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
 alias dotfiles="cd ~/Dokumente/Github/dotfiles"
@@ -121,7 +120,7 @@ alias gis="git status"
 
 alias updconfig="cp -ru ~/.config/i3/* ~/Dokumente/Github/dotfiles/i3 && cp -ru ~/.config/polybar/* ~/Dokumente/Github/dotfiles/polybar && cp -ru ~/.config/ranger/rc.conf ~/Dokumente/Github/dotfiles/ranger &&cp -ru ~/.config/ranger/rifle.conf ~/Dokumente/Github/dotfiles/ranger && cp -ru ~/.config/rofi/config.rasi ~/Dokumente/Github/dotfiles/rofi && cp -ru ~/.Xresources ~/Dokumente/Github/dotfiles/Xresources && cp -ru ~/.vimrc ~/Dokumente/Github/dotfiles/vim && cp -ru ~/.zshrc ~/Dokumente/Github/dotfiles/zsh && cp -ru ~/.oh-my-zsh/themes/robbyrussell.zsh-theme ~/Dokumente/Github/dotfiles/zsh && cp -ru ~/.config/Code\ -\ OSS/User/settings.json ~/Dokumente/Github/dotfiles/vscode && cp -ru ~/.config/neofetch/config.conf ~/Dokumente/Github/dotfiles/neofetch && cp -ru /etc/X11/xorg.conf.d/90-touchpad.conf ~/Dokumente/Github/dotfiles/sonstiges && cp -ru ~/.config/spicetify/* ~/Dokumente/Github/dotfiles/spicetify"
 
-alias checkremove='echo $(pacman -Qdtq) && sudo pacman -Rsn $(pacman -Qdtq)'
+alias checkremove='sudo pacman -Rsn $(pacman -Qdtq)'
 
 # bindkeys
 bindkey "^[[7~" beginning-of-line
