@@ -1,0 +1,6 @@
+dropbox
+java-openjdk-bin
+jetbrains-toolbox
+polybar
+spicetify-cli
+spotify
