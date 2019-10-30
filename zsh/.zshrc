@@ -109,6 +109,7 @@ source $ZSH/oh-my-zsh.sh
 alias b="cd .."
 alias off="shutdown 0" 
 alias cds="cd ~/Dropbox/Studium/Semester_5"
+alias cdc="cd ~/.config/"
 alias please="sudo"
 alias upd="sudo pacman -Syu"
 alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
