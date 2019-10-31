@@ -17,7 +17,7 @@
 ;============================================================;
 
 [colors]
-background = #0c0c0c
+background = #000000
 foreground = #ffffff
 
 primary = #aa0D47A1

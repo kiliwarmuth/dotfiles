@@ -143,7 +143,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec i3lock --color=0f0f0f
+bindsym $mod+Shift+e exec i3lock --color=000000
 bindsym $mod+Shift+q exec i3-msg exit
 
 # resize window (you can also use the mouse for that)
