@@ -109,7 +109,7 @@ label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %index%
-label-urgent-background = ${colors.alert}
+label-urgent-background = #006ad1
 label-urgent-padding = 2
 
 [module/cpu]
@@ -199,7 +199,7 @@ format-warn = <ramp> <label-warn>
 
 label = %temperature-c%
 label-warn = %temperature-c%
-label-warn-background = #dc143c
+label-warn-background = #006ad1
 label-warn-padding = 1
 
 ramp-0 = 
