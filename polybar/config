@@ -93,8 +93,8 @@ label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
-label-focused-background = #eb1540
-label-focused-underline= #eb1540
+label-focused-background = #dc143c
+label-focused-underline= #dc143c
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
@@ -152,7 +152,7 @@ time = %H:%M
 
 format-prefix = ""
 format-prefix-foreground = #FFFFFF
-format-background = #eb1540
+format-background = #dc143c
 format-padding = 2
 
 label =  %date% %time%
@@ -169,7 +169,7 @@ format-discharging-padding = 1
 
 format-full-prefix = "  "
 format-full-prefix-foreground = #FFFFFF
-format-full-prefix-background = #eb1540
+format-full-prefix-background = #dc143c
 
 format-charging-padding = 1
 
