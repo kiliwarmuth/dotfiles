@@ -33,14 +33,14 @@ URxvt.keysym.Shift-Down: command:\033]721;1\007
 *.background:       #ffffff
 *.foreground:       #ffffff
 *.accent:           #ffffff
-*.cursorColor:      #dc143c
+*.cursorColor:      #eb1540
 
 ! black
 URxvt.color0  : #2E3436
 URxvt.color8  : #555753
 ! red
-URxvt.color1  : #dc143c
-URxvt.color9  : #dc143c
+URxvt.color1  : #eb1540
+URxvt.color9  : #eb1540
 ! green
 URxvt.color2  : #4E9A06
 URxvt.color10 : #8AE234
