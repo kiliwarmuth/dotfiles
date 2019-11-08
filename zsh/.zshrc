@@ -107,19 +107,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias b="cd .."
-alias off="shutdown 0" 
+alias off="figlet -c shutting down && shutdown 0" 
 alias cds="cd ~/Dropbox/Studium/Semester_5"
 alias cdc="cd ~/.config/"
 alias please="sudo"
-alias upd="sudo pacman -Syu"
+alias upd="figlet -c Pacman Update  && sudo pacman -Syu"
 alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
 alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
 alias dotfiles="cd ~/Dokumente/Github/dotfiles"
 alias c="clear"
 alias gac="git add . && git commit -a -m"
 alias gis="git status"
-alias updconfig="sh ~/Programme/scripts/updconfig.sh"
-alias checkremove='sudo pacman -Rsn $(pacman -Qdtq)'
+alias updconfig="figlet -c updating config... && sh ~/Programme/scripts/updconfig.sh"
+alias checkremove='figlet -c Pacman Check && sudo pacman -Rsn $(pacman -Qdtq) && paccache -r'
 
 # bindkeys
 bindkey "^[[7~" beginning-of-line
