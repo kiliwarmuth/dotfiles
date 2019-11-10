@@ -4,6 +4,6 @@ url(about:home) {
     html:not(#ublock0-epicker),
     html:not(#ublock0-epicker) body,
     #newtab-customize-overlay {
-        background: #1a1a1a !important;
+        background: #0a0a0a !important;
     }
 }

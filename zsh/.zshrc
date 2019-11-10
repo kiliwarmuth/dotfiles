@@ -111,15 +111,15 @@ alias off="figlet -c shutting down && shutdown 0"
 alias cds="cd ~/Dropbox/Studium/Semester_5"
 alias cdc="cd ~/.config/"
 alias please="sudo"
-alias upd="figlet -c Pacman Update  && sudo pacman -Syu"
+alias upd="figlet updating && sudo pacman -Syu && yay -Syu"
 alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
 alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
 alias dotfiles="cd ~/Dokumente/Github/dotfiles"
 alias c="clear"
 alias gac="git add . && git commit -a -m"
 alias gis="git status"
-alias updconfig="figlet -c updating config... && sh ~/Programme/scripts/updconfig.sh"
-alias checkremove='figlet -c Pacman Check && sudo pacman -Rsn $(pacman -Qdtq) && paccache -r'
+alias updconfig="figlet -c updating config && sh ~/Programme/scripts/updconfig.sh"
+alias clean='figlet cleaning && yay -Yc &&  sudo pacman -Rsn $(pacman -Qdtq) && paccache -r'
 
 # bindkeys
 bindkey "^[[7~" beginning-of-line
