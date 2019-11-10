@@ -16,7 +16,5 @@ cp -ru /etc/X11/xorg.conf.d/90-touchpad.conf ~/Dokumente/Github/dotfiles/sonstig
 cp -ru ~/.config/spicetify/* ~/Dokumente/Github/dotfiles/spicetify
 cp -ru ~/.mozilla/firefox/uri41cyr.default-release/chrome/* ~/Dokumente/Github/dotfiles/firefox/chrome
 cp -ru ~/.themes/Custom-Dark ~/Dokumente/Github/dotfiles/themes
-cp -ru ~/.icons/capitaine-cursors ~/Dokumente/Github/dotfiles/themes
-cp -ru ~/.icons/korla ~/Dokumente/Github/dotfiles/themes
 cp -ru ~/Programme/scripts/updconfig.sh ~/Dokumente/Github/dotfiles/zsh
 
