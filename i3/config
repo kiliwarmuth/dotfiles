@@ -226,6 +226,9 @@ bindsym $mod+shift+z	gaps inner current minus 5
 # Only enable gaps on a workspace when there is at least one container
 smart_gaps on
 
+# rounded corners
+border_radius 10
+
 #autostart programs on specific workspace
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 exec --no-startup-id i3-msg 'workspace 1; exec ~/.config/i3/ranger.sh'
