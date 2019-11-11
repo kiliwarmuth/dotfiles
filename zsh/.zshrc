@@ -8,8 +8,6 @@
 # ================== #
 
 
-
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -25,45 +23,60 @@ PATH=$PATH:~/.cabal/bin
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS=true
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
 COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
 plugins=(git colored-man-pages colorize command-not-found copydir copyfile)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
 # You may need to manually set your language environment
 export LANG=de_DE.UTF-8
+
+# aliases
+
+# cd shortcuts
+alias b="cd .."
+alias cdc="cd ~/.config/"
+alias cds="cd ~/Dropbox/Studium/Semester_5"
+alias dotfiles="cd ~/Dokumente/Github/dotfiles"
+
+# system maintance
+alias off="figlet shutting down | lolcat  && sleep 2 && shutdown 0" 
+alias upd="figlet updating | lolcat -F 0.2 && echo '\n' && sudo pacman -Syu && yay -Syu"
+alias updconfig="figlet updating config | lolcat && echo '\n' && sh ~/Programme/scripts/updconfig.sh"
+alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && paccache -r &&  sudo pacman -Rsn $(pacman -Qdtq)"
+
+# ssh shortcuts
+alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
+alias ssh1="ssh -p 60802 kili@psa.in.tum.de"
+alias ssh2="ssh -p 60803 kili@psa.in.tum.de"
+alias ssh3="ssh -p 60801 warmuth@psa.in.tum.de"
+alias ssh4="ssh warmuth@lxhalle.in.tum.de"
+
+# git shortcuts
+alias gac="git add . && git commit -a -m"
+alias gis="git status"
+
+# random shortcuts (some useful, some not)
+alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
+alias c="clear"
+alias v="vim"
+alias lt='du -sh * | sort -h'
+alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
+alias gh='history | grep'
+alias ra="ranger"
+
+# end of aliases
+
+# bindkeys
+bindkey "^[[7~" beginning-of-line
+bindkey "^[[8~" end-of-line
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -83,21 +96,27 @@ export LANG=de_DE.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias b="cd .."
-alias off="figlet shutting down | lolcat  && sleep 2 && shutdown 0" 
-alias cds="cd ~/Dropbox/Studium/Semester_5"
-alias cdc="cd ~/.config/"
-alias please="sudo"
-alias upd="figlet updating | lolcat -F 0.2 && echo '\n' && sudo pacman -Syu && yay -Syu"
-alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
-alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
-alias dotfiles="cd ~/Dokumente/Github/dotfiles"
-alias c="clear"
-alias gac="git add . && git commit -a -m"
-alias gis="git status"
-alias updconfig="figlet updating config | lolcat && echo '\n' && sh ~/Programme/scripts/updconfig.sh"
-alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && paccache -r &&  sudo pacman -Rsn $(pacman -Qdtq)"
 
-# bindkeys
-bindkey "^[[7~" beginning-of-line
-bindkey "^[[8~" end-of-line
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+
