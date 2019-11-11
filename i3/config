@@ -227,7 +227,7 @@ bindsym $mod+shift+z	gaps inner current minus 5
 smart_gaps on
 
 # rounded corners
-border_radius 10
+border_radius 5
 
 #autostart programs on specific workspace
 exec --no-startup-id i3-msg 'workspace 2; exec firefox'
