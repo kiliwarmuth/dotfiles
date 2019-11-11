@@ -1,6 +1,10 @@
 dropbox
+i3-gaps-rounded-git
 java-openjdk-bin
 jetbrains-toolbox
+korla-icon-theme-git
+pipes.sh
 polybar
 spicetify-cli
 spotify
+yay
