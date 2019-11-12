@@ -19,3 +19,8 @@ cp -ru ~/.mozilla/firefox/uri41cyr.default-release/chrome/* ~/Dokumente/Github/d
 cp -ru ~/.themes/Custom-Dark ~/Dokumente/Github/dotfiles/themes
 cp -ru ~/Programme/scripts/updconfig.sh ~/Dokumente/Github/dotfiles/zsh
 
+# update list of installed packages
+pacman -Qqe > ~/Dokumente/Github/dotfiles/bin/pkglist.txt
+pacman -Qqem > ~/Dokumente/Github/dotfiles/bin/foreignpkglist.txt
+
+

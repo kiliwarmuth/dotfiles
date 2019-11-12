@@ -230,8 +230,8 @@ smart_gaps on
 border_radius 5
 
 #autostart programs on specific workspace
-exec --no-startup-id i3-msg 'workspace 2; exec firefox'
-exec --no-startup-id i3-msg 'workspace 1; exec ~/.config/i3/ranger.sh'
-exec --no-startup-id i3-msg 'workspace 1; exec ~/.config/i3/neofetch.sh'
+exec --no-startup-id i3-msg 'workspace 2; exec ~/.config/i3/ranger.sh'
+exec --no-startup-id i3-msg 'workspace 2; exec ~/.config/i3/neofetch.sh'
+exec --no-startup-id i3-msg 'workspace 1; exec firefox'
 
 

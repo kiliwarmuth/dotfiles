@@ -23,7 +23,6 @@ dropbox
 e2fsprogs
 efibootmgr
 eog
-evince
 fakeroot
 feh
 figlet
@@ -112,6 +111,7 @@ vim
 virtualbox
 virtualbox-guest-iso
 w3m
+wget
 which
 wpa_supplicant
 xclip
@@ -137,4 +137,6 @@ xorg-xinit
 xorg-xrandr
 xss-lock
 yay
+zathura
+zathura-pdf-mupdf
 zsh
