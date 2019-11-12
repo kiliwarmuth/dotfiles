@@ -1,0 +1,63 @@
+# Zathura configuration file
+# See man `man zathurarc'
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# One page per row by default
+set pages-per-row 1
+
+#zoom settings
+set zoom-min 10
+set guioptions ""
+
+# zathurarc-dark-theme
+
+set font "Hack 11"
+set default-bg "#0a0a0a" 
+set default-fg "#FFFFFF"
+
+set statusbar-fg "#B0B0B0" 
+set statusbar-bg "#0a0a0a" 
+
+set inputbar-bg "#0a0a0a" 
+set inputbar-fg "#FFFFFF" 
+
+set notification-error-bg "#AC4142" 
+set notification-error-fg "#151515" 
+
+set notification-warning-bg "#AC4142" 
+set notification-warning-fg "#151515" 
+
+set highlight-color "#dc143c" 
+set highlight-active-color "#006ad1" 
+
+set completion-highlight-fg "#dc143c" 
+set completion-highlight-bg "#0a0a0a"
+
+set completion-bg "#0a0a0a"
+set completion-fg "#dc143c" 
+
+set notification-bg "#dc143c" 
+set notification-fg "#ffffff" 
+
+set recolor "true"
+set recolor-lightcolor "#0a0a0a" 
+set recolor-darkcolor "#f5f5f5" 
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+
+# keyboard mappings
+
+map F toggle_fullscreen
+map [fullscreen] F toggle_fullscreen
+map i recolor
+map n navigate next
+map p navigate previous
+
+# other options
+set window-title-basename "true"
+set window-title-home-tilde "true"
+set render-loading "false"
+set scroll-step 150
+set smooth-scroll "true"
