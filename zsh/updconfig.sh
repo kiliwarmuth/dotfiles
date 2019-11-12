@@ -6,6 +6,7 @@ cp -ru ~/.config/ranger/rc.conf ~/Dokumente/Github/dotfiles/ranger
 cp -ru ~/.config/ranger/rifle.conf ~/Dokumente/Github/dotfiles/ranger
 cp -ru ~/.config/ranger/scope.sh ~/Dokumente/Github/dotfiles/ranger
 cp -ru ~/.config/rofi/config.rasi ~/Dokumente/Github/dotfiles/rofi
+cp -ru ~/.config/zathura/zathurarc ~/Dokumente/Github/dotfiles/zathura
 cp -ru ~/.Xresources ~/Dokumente/Github/dotfiles/Xresources
 cp -ru ~/.vimrc ~/Dokumente/Github/dotfiles/vim
 cp -ru ~/.zshrc ~/Dokumente/Github/dotfiles/zsh

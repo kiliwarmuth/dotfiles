@@ -47,7 +47,7 @@ alias cds="cd ~/Dropbox/Studium/Semester_5"
 alias dotfiles="cd ~/Dokumente/Github/dotfiles"
 
 # system maintance
-alias off="figlet shutting down | lolcat  && sleep 2 && shutdown 0" 
+alias off="figlet poweroff | lolcat  && sleep 2 && poweroff" 
 alias upd="figlet updating | lolcat -F 0.2 && echo '\n' && sudo pacman -Syu && yay -Syu"
 alias updconfig="figlet updating config | lolcat && echo '\n' && sh ~/Programme/scripts/updconfig.sh"
 alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && paccache -r &&  sudo pacman -Rsn $(pacman -Qdtq)"
