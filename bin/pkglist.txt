@@ -1,5 +1,6 @@
 acpid
 alsa-utils
+arandr
 autoconf
 automake
 avahi
