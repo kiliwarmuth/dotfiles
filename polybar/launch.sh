@@ -3,6 +3,9 @@
 # set correct resolution
 xrandr && xrandr --output eDP1 --mode 1920x1080
 
+# load background
+feh --bg-fill ~/Media/Bilder/ArenaBlur.png
+
 # Terminate already running bar instances
 killall -q polybar
 

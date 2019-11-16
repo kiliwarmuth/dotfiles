@@ -12,3 +12,5 @@
 
 ![Screenshot](https://github.com/089kili/dotfiles/blob/master/screenshots/screenshot3.png)
 
+![Screenshot](https://github.com/089kili/dotfiles/blob/master/screenshots/screenshot4.png)
+
