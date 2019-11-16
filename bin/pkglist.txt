@@ -134,6 +134,7 @@ xf86-video-vmware
 xf86-video-voodoo
 xorg-server
 xorg-xinit
+xorg-xprop
 xorg-xrandr
 xss-lock
 yay
