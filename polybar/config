@@ -64,9 +64,9 @@ font-2 = FontAwesome:style=Regular:size=11;2
 font-3 = FontAwesome5Free:style=Regular:size=11;2
 font-4 = FontAwesome5Brands:style=Regular:size=11;2
 
-modules-left = i3 memory cpu temperature
+modules-left = i3 memory cpu temperature pulseaudio xbacklight
 modules-center = xwindow
-modules-right = wlan battery  date
+modules-right = wlan battery date
 
 tray-position = right
 tray-padding = 5
@@ -207,7 +207,49 @@ ramp-1 = 
 ramp-foreground = #FFFFFF
 format-padding = 1
 
-[settings]
+[module/pulseaudio]
+type = internal/pulseaudio
+
+; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
+; Default: true
+use-ui-max = true
+
+; Interval for volume increase/decrease (in percent points)
+; Default: 5
+interval = 5
+
+; Available tags:
+;   <label-volume> (default)
+;   <ramp-volume>
+;   <bar-volume>
+format-volume = <ramp-volume> <label-volume>
+format-volume-foreground = #FFFFFF
+
+; Available tags:
+;   <label-muted> (default)
+;   <ramp-volume>
+;   <bar-volume>
+;format-muted = <label-muted>
+
+; Available tokens:
+;   %percentage% (default)
+;   %decibels% (unreleased)
+;label-volume = %percentage%%
+
+; Available tokens:
+;   %percentage% (default)
+;   %decibels% (unreleased)
+label-muted = 
+label-muted-foreground = #FFFFFF
+
+; Only applies if <ramp-volume> is used
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+; ------------------------ END OF MODULES --------------------------------------------------
+
+
 screenchange-reload = true
 ;compositing-background = xor
 ;compositing-background = screen

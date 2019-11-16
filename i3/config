@@ -192,11 +192,12 @@ for_window [class="Zathura"] move to workspace $ws3
 for_window [class="Nautilus"] move to workspace $ws4
 for_window [class="code"] move to workspace $ws5
 for_window [class="LibreOffice*"] move to workspace $ws7
+for_window [class="Gimp"] move to workspace $ws8
 for_window [class="Spotify"] move to workspace $ws9
 
+# floating settings
 for_window [class="mpv"] floating enable
 for_window [class="calculator"] floating enable
-
 for_window [window_role="pop-up"] floating enable
 
 # brightness Keybindings

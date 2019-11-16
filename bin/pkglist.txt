@@ -82,7 +82,6 @@ openssh
 pacman
 pacman-contrib
 patch
-pavucontrol
 pipes.sh
 pkgconf
 playerctl
