@@ -18,7 +18,7 @@
             "titleBar.inactiveBackground": "#0a0a0a",
             "titleBar.activeBackground": "#0a0a0a",
             "terminal.background": "#0a0a0a",
-            "tab.activeBackground": "#0d0d0d",
+            "tab.activeBackground": "#0a0a0a",
             "tab.inactiveBackground": "#0a0a0a"
         }
     }
