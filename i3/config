@@ -195,6 +195,8 @@ for_window [class="jetbrains*"] move to workspace $ws5
 for_window [class="LibreOffice*"] move to workspace $ws7
 for_window [class="Gimp"] move to workspace $ws8
 for_window [class="Spotify"] move to workspace $ws9
+for_window [class="VirtualBox Manager"] move to workspace $ws10
+for_window [class="VirtualBox Machine"] move to workspace $ws10
 
 # floating settings
 for_window [class="mpv"] floating enable
