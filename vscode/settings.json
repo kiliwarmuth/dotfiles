@@ -20,5 +20,6 @@
             "terminal.background": "#0a0a0a",
             "tab.activeBackground": "#0a0a0a",
             "tab.inactiveBackground": "#0a0a0a"
-        }
+        },
+        "latex-workshop.view.pdf.viewer": "tab"
     }
