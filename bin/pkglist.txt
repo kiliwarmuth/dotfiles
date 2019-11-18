@@ -116,6 +116,7 @@ w3m
 wget
 which
 wpa_supplicant
+xautolock
 xclip
 xf86-input-evdev
 xf86-input-keyboard

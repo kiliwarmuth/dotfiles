@@ -34,6 +34,9 @@ font pango:Hack 8
 # screen before suspend.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- 'i3lock --color=000000' --nofork
 
+# lock screen after 10 minutes of idle
+exec --no-startup-id xautolock -locker 'i3lock -c 000000'
+
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
@@ -173,16 +176,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-##############
-# own config #
-##############
-
 # change to correct keyboard map
 exec --no-startup-id setxkbmap -layout de
 
 # autostart 
-exec dropbox start
-#exec --no-startup-id pulseaudio --start
+exec --no-startup-id dropbox
 
 # change screen resolution, set wallpaper and start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
