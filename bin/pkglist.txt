@@ -46,6 +46,7 @@ grep
 groff
 grub
 grub-customizer
+gufw
 gzip
 haskell-hackage-security
 hlint

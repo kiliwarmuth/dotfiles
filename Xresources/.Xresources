@@ -7,7 +7,6 @@
 ! 						     !
 ! ================================================== !
 
-
 URxvt.urlButton: 1
 URxvt.underlineURLs: True
 
