@@ -1,0 +1,26 @@
+{
+    "editor.fontFamily": "'Hack', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid'\",",
+    "workbench.colorTheme": "One Dark Pro Monokai Darker",
+    "terminal.integrated.fontFamily": "Hack",
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0,
+    "C_Cpp.updateChannel": "Insiders",
+    "window.menuBarVisibility": "toggle",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "workbench.colorCustomizations": {
+            "sideBar.background": "#0a0a0a",
+            "statusBar.background": "#0a0a0a",
+            "activityBar.background": "#0a0a0a",
+            "badge.background": "#0a0a0a",
+            "editor.background": "#0a0a0a",
+            "titleBar.inactiveBackground": "#0a0a0a",
+            "titleBar.activeBackground": "#0a0a0a",
+            "terminal.background": "#0a0a0a",
+            "tab.activeBackground": "#0a0a0a",
+            "tab.inactiveBackground": "#0a0a0a"
+        },
+        "latex-workshop.view.pdf.viewer": "tab",
+        "workbench.iconTheme": "material-icon-theme"
+    }
