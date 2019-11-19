@@ -1,4 +1,4 @@
-# dotfiles
+# my dotfiles
 
 - **Window Manager**: i3-gaps
 - **Bar**: polybar
