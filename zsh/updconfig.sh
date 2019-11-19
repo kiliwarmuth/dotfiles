@@ -15,6 +15,7 @@ cp -ru ~/.config/Code\ -\ OSS/User/settings.json ~/Dokumente/Github/dotfiles/vsc
 cp -ru ~/.config/neofetch/config.conf ~/Dokumente/Github/dotfiles/neofetch
 cp -ru /etc/X11/xorg.conf.d/90-touchpad.conf ~/Dokumente/Github/dotfiles/bin
 cp -ru ~/.config/spicetify/* ~/Dokumente/Github/dotfiles/spicetify
+cp -ru ~/.config/cava/config ~/Dokumente/Github/dotfiles/cava
 cp -ru ~/.mozilla/firefox/uri41cyr.default-release/chrome/* ~/Dokumente/Github/dotfiles/firefox/chrome
 cp -ru ~/.themes/Custom-Dark ~/Dokumente/Github/dotfiles/themes
 cp -ru ~/Programme/scripts/updconfig.sh ~/Dokumente/Github/dotfiles/zsh

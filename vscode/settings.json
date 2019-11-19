@@ -21,5 +21,6 @@
             "tab.activeBackground": "#0a0a0a",
             "tab.inactiveBackground": "#0a0a0a"
         },
-        "latex-workshop.view.pdf.viewer": "tab"
+        "latex-workshop.view.pdf.viewer": "tab",
+        "workbench.iconTheme": "material-icon-theme"
     }
