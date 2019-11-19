@@ -1,8 +1,0 @@
-Autologin:
-getty
-sudo systemctl edit getty@tty1
-
-add:
-[Service]
-ExecStart=
-ExecStart=-/sbin/agetty --autologin kili --noclear %I 38400 linux
