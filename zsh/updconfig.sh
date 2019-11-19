@@ -19,6 +19,7 @@ cp -ru ~/.config/cava/config ~/Dokumente/Github/dotfiles/bin/cava
 cp -ru ~/.mozilla/firefox/uri41cyr.default-release/chrome/* ~/Dokumente/Github/dotfiles/firefox/chrome
 cp -ru ~/.themes/Custom-Dark ~/Dokumente/Github/dotfiles/themes
 cp -ru ~/Programme/scripts/updconfig.sh ~/Dokumente/Github/dotfiles/zsh
+cp -ru /etc/pacman.d/hooks/* ~/Dokumente/Github/dotfiles/bin/pacman
 
 # update list of installed packages
 pacman -Qqe > ~/Dokumente/Github/dotfiles/bin/pacman/pkglist.txt
