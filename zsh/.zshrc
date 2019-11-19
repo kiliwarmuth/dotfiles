@@ -69,6 +69,10 @@ alias lt='du -sh * | sort -h'
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
 alias gh='history | grep'
 alias ra="ranger"
+alias gt="gotop"
+alias clock="tty-clock -B -c -C 1"
+alias pipes="pipes.sh"
+alias cava="cava -p ~/.config/cava/config"
 
 # end of aliases
 

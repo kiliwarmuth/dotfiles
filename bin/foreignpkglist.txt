@@ -1,4 +1,6 @@
+cava
 dropbox
+gotop
 i3-gaps-rounded-git
 java-openjdk-bin
 jetbrains-toolbox
@@ -7,4 +9,5 @@ pipes.sh
 polybar
 spicetify-cli
 spotify
+tty-clock
 yay

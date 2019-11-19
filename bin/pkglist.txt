@@ -13,6 +13,7 @@ bluez-utils
 brightnessctl
 cabal-install
 capitaine-cursors
+cava
 code
 cronie
 cups
@@ -40,6 +41,7 @@ ghc-static
 gimp
 git
 gnome-calculator
+gotop
 gparted
 gptfdisk
 grep
@@ -105,6 +107,7 @@ texinfo
 traceroute
 ttf-font-awesome
 ttf-hack
+tty-clock
 ufw
 unzip
 usbutils
