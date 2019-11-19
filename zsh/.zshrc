@@ -60,6 +60,7 @@ alias ssh4="ssh warmuth@lxhalle.in.tum.de"
 # git shortcuts
 alias gac="git add . && git commit -a -m"
 alias gis="git status"
+alias gs="git add . && git commit -a -m 'updated' && git push"
 
 # random shortcuts (some useful, some not)
 alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
