@@ -32,10 +32,10 @@ font pango:Hack 8
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock  -i ~/Media/Bilder/ArenaBlurFullHD.png --nofork
+exec --no-startup-id xss-lock -- ~/.config/i3/lock.sh --transfer-sleep-lock
 
 # lock screen after 10 minutes of idle
-exec --no-startup-id xautolock -locker 'i3lock -i ~/Media/Bilder/ArenaBlurArchFullHD.png'
+exec --no-startup-id xautolock -locker i3lock
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -146,7 +146,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec i3lock -i ~/Media/Bilder/ArenaBlurArchFullHD.png
+bindsym $mod+Shift+e exec xset dpms force suspend
 bindsym $mod+Shift+q exec i3-msg exit
 
 # resize window (you can also use the mouse for that)
