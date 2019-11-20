@@ -32,7 +32,7 @@ font pango:Hack 8
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- 'i3lock --color=000000' --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- 'i3lock --color=000000' --nofork
 
 # lock screen after 10 minutes of idle
 exec --no-startup-id xautolock -locker 'i3lock -c 000000'
