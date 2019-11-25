@@ -20,6 +20,7 @@ cp -ru ~/.mozilla/firefox/uri41cyr.default-release/chrome/* ~/Dokumente/Github/d
 cp -ru ~/.themes/Custom-Dark ~/Dokumente/Github/dotfiles/themes
 cp -ru ~/Programme/scripts/updconfig.sh ~/Dokumente/Github/dotfiles/zsh
 cp -ru /etc/pacman.d/hooks/* ~/Dokumente/Github/dotfiles/bin/pacman
+cp -ru ~/.config/compton/compton.conf ~/Dokumente/Github/dotfiles/compton
 
 # update list of installed packages
 pacman -Qqe > ~/Dokumente/Github/dotfiles/bin/pacman/pkglist.txt

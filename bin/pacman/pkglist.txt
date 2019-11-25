@@ -15,6 +15,7 @@ cabal-install
 capitaine-cursors
 cava
 code
+compton-tryone-git
 cronie
 cups
 dhcpcd

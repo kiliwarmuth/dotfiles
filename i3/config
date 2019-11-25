@@ -179,6 +179,9 @@ bindsym $mod+r mode "resize"
 # change to correct keyboard map
 exec --no-startup-id setxkbmap -layout de
 
+# start compton
+exec --no-startup-id compton --config ~/.config/compton/compton.conf
+
 # autostart 
 exec --no-startup-id dropbox
 

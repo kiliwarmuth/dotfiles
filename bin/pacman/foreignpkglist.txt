@@ -1,4 +1,5 @@
 cava
+compton-tryone-git
 dropbox
 gotop
 i3-gaps-rounded-git
