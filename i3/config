@@ -35,7 +35,7 @@ font pango:Hack 8
 exec --no-startup-id xss-lock -- ~/.config/i3/lock.sh --transfer-sleep-lock
 
 # lock screen after 10 minutes of idle
-exec --no-startup-id xautolock -locker i3lock
+exec --no-startup-id xautolock -locker '~/.config/i3/lock.sh' &
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -142,7 +142,7 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+Shift+u reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
@@ -179,8 +179,10 @@ bindsym $mod+r mode "resize"
 # change to correct keyboard map
 exec --no-startup-id setxkbmap -layout de
 
-# start compton
+# compton
 exec --no-startup-id compton --config ~/.config/compton/compton.conf
+bindsym $mod+c exec kill $(pidof compton)
+bindsym $mod+Shift+c exec compton --config ~/.config/compton/compton.conf
 
 # autostart 
 exec --no-startup-id dropbox
