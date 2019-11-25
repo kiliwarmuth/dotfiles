@@ -13,7 +13,7 @@ URxvt.underlineURLs: True
 URxvt*depth: 32
 URxvt.background: #0a0a0a
 urxvt*transparent: true
-urxvt*shading: 20
+urxvt*shading: 10
 !URxvt*background: rgba:000a/000a/000a/0c00
 URxvt.saveLines: 2000
 URxvt.scrollBar: False
