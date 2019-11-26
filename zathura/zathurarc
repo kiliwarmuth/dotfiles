@@ -15,35 +15,35 @@ set guioptions ""
 
 set font "Hack 11"
 set default-bg "#0a0a0a" 
-set default-fg "#FFFFFF"
+set default-fg "#ff0000"
 
-set statusbar-fg "#B0B0B0" 
+set statusbar-fg "#cbcbcb" 
 set statusbar-bg "#0a0a0a" 
 
 set inputbar-bg "#0a0a0a" 
-set inputbar-fg "#FFFFFF" 
+set inputbar-fg "#cbcbcb" 
 
 set notification-error-bg "#AC4142" 
 set notification-error-fg "#151515" 
 
 set notification-warning-bg "#AC4142" 
-set notification-warning-fg "#151515" 
+set notification-warning-fg "#cbcbcb" 
 
 set highlight-color "#dc143c" 
 set highlight-active-color "#006ad1" 
 
 set completion-highlight-fg "#dc143c" 
-set completion-highlight-bg "#0a0a0a"
+set completion-highlight-bg "#cbcbcb"
 
 set completion-bg "#0a0a0a"
 set completion-fg "#dc143c" 
 
 set notification-bg "#dc143c" 
-set notification-fg "#ffffff" 
+set notification-fg "#cbcbcb" 
 
 set recolor "true"
 set recolor-lightcolor "#0a0a0a" 
-set recolor-darkcolor "#f5f5f5" 
+set recolor-darkcolor "#cbcbcb" 
 set recolor-reverse-video "true"
 set recolor-keephue "true"
 
