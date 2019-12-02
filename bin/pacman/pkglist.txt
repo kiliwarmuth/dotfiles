@@ -63,6 +63,7 @@ jetbrains-toolbox
 keychain
 korla-icon-theme-git
 less
+libgnome-keyring
 libreoffice-fresh
 libreoffice-fresh-de
 libtool
@@ -80,6 +81,7 @@ nautilus
 ncdu
 neofetch
 network-manager-applet
+nextcloud-client
 nmap
 ntfs-3g
 openssh
