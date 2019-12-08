@@ -52,10 +52,7 @@ alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && sudo paccache -
 
 # ssh shortcuts
 alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
-alias ssh1="ssh -p 60802 kili@psa.in.tum.de"
-alias ssh2="ssh -p 60803 kili@psa.in.tum.de"
-alias ssh3="ssh -p 60801 warmuth@psa.in.tum.de"
-alias ssh4="ssh warmuth@lxhalle.in.tum.de"
+alias sshlxhalle="ssh warmuth@lxhalle.in.tum.de"
 
 # git shortcuts
 alias gac="git add . && git commit -a -m"
