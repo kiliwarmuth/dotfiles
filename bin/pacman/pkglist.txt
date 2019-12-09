@@ -81,9 +81,9 @@ nautilus
 ncdu
 neofetch
 network-manager-applet
-nextcloud-client
 nmap
 ntfs-3g
+onefetch
 openssh
 pacman
 pacman-contrib
