@@ -77,7 +77,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:95:...%
+label = %title:0:75:...%
 format-background = #0a0a0a
 format-padding = 5
 
