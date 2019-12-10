@@ -1,6 +1,7 @@
 cava
 compton-tryone-git
 dropbox
+ffmpeg-compat-57
 gotop
 i3-gaps-rounded-git
 java-openjdk-bin

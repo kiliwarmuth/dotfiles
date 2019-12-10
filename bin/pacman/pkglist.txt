@@ -28,6 +28,7 @@ efibootmgr
 eog
 fakeroot
 feh
+ffmpeg-compat-57
 figlet
 file
 findutils
@@ -161,4 +162,5 @@ xss-lock
 yay
 zathura
 zathura-pdf-mupdf
+zenity
 zsh
