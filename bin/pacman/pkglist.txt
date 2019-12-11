@@ -14,8 +14,10 @@ brightnessctl
 cabal-install
 capitaine-cursors
 cava
+cmatrix
 code
 compton-tryone-git
+cowsay
 cronie
 cups
 dhcpcd
@@ -103,6 +105,7 @@ rxvt-unicode
 s-nail
 scrot
 sed
+sl
 spicetify-cli
 spotify
 sudo

@@ -71,12 +71,16 @@ alias gt="gotop"
 alias clock="tty-clock -B -c -C 1"
 alias pipes="pipes.sh"
 alias cava="cava -p ~/.config/cava/config"
+alias arch="cowsay -f tux i am using Arch btw."
 
 # end of aliases
 
 # bindkeys
 bindkey "^[[7~" beginning-of-line
 bindkey "^[[8~" end-of-line
+
+
+cowsay -f tux i am using Arch btw.
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -118,5 +122,7 @@ bindkey "^[[8~" end-of-line
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+
+
 
 
