@@ -5,6 +5,7 @@ autoconf
 automake
 avahi
 base
+bat
 binutils
 bison
 blueman
@@ -22,6 +23,7 @@ cronie
 cups
 dhcpcd
 dialog
+diff-so-fancy
 dmenu
 dosfstools
 dropbox
@@ -83,6 +85,7 @@ nano
 nautilus
 ncdu
 neofetch
+neovim
 network-manager-applet
 nmap
 ntfs-3g

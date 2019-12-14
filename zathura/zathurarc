@@ -62,4 +62,4 @@ set render-loading "false"
 set scroll-step 150
 set smooth-scroll "true"
 set page-padding 10
-set selection-clipboard clipboard "true"
+set selection-clipboard clipboard

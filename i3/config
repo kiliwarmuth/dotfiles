@@ -200,9 +200,9 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id setxkbmap -layout de
 
 # compton
-exec --no-startup-id compton --config ~/.config/compton/compton.conf
+exec --no-startup-id compton --config ~/.config/compton/compton.conf --blur-method kawase --blur-strength 10
 bindsym $mod+c exec kill $(pidof compton)
-bindsym $mod+Shift+c exec compton --config ~/.config/compton/compton.conf
+bindsym $mod+Shift+c exec compton --config ~/.config/compton/compton.conf --blur-method kawase --blur-strength 10
 
 # autostart 
 exec --no-startup-id dropbox

@@ -53,6 +53,12 @@ alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && sudo paccache -
 # ssh shortcuts
 alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
 alias sshlxhalle="ssh warmuth@lxhalle.in.tum.de"
+alias s1="ssh -p 60801 root@psa.in.tum.de"
+alias s2="ssh -p 60802 root@psa.in.tum.de"
+alias s3="ssh -p 60803 root@psa.in.tum.de"
+alias s4="ssh -p 60804 root@psa.in.tum.de"
+alias s5="ssh -p 60805 root@psa.in.tum.de"
+alias s6="ssh -p 60806 root@psa.in.tum.de"
 
 # git shortcuts
 alias gac="git add . && git commit -a -m"
@@ -71,7 +77,8 @@ alias gt="gotop"
 alias clock="tty-clock -B -c -C 1"
 alias pipes="pipes.sh"
 alias cava="cava -p ~/.config/cava/config"
-alias arch="cowsay -f tux i am using Arch btw."
+alias arch="cowsay -f tux I'm using Arch btw."
+alias cat="bat"
 
 # end of aliases
 
@@ -79,8 +86,8 @@ alias arch="cowsay -f tux i am using Arch btw."
 bindkey "^[[7~" beginning-of-line
 bindkey "^[[8~" end-of-line
 
-
-cowsay -f tux i am using Arch btw.
+# Wos schert mit Weib? Wos schert mit Kind? 
+cowsay -f tux "Hauptsach' is, dass Bayern gwinnt!"
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
