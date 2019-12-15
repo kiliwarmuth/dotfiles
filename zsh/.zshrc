@@ -68,7 +68,8 @@ alias gs="git add . && git commit -a -m 'updated' && git push"
 # random shortcuts (some useful, some not)
 alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
 alias c="clear"
-alias v="vim"
+alias v="nvim"
+alias vim="nvim"
 alias lt='du -sh * | sort -h'
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
 alias gh='history | grep'
@@ -79,6 +80,7 @@ alias pipes="pipes.sh"
 alias cava="cava -p ~/.config/cava/config"
 alias arch="cowsay -f tux I'm using Arch btw."
 alias cat="bat"
+alias copyWD="sh ~/Programme/scripts/copyWD.sh"
 
 # end of aliases
 

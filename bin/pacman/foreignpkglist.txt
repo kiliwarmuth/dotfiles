@@ -7,6 +7,7 @@ i3-gaps-rounded-git
 java-openjdk-bin
 jetbrains-toolbox
 korla-icon-theme-git
+mailspring
 onefetch
 pipes.sh
 polybar
