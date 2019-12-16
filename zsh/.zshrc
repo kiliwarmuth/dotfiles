@@ -48,7 +48,7 @@ alias dotfiles="cd ~/Dokumente/Github/dotfiles"
 alias off="figlet poweroff | lolcat  && sleep 0.5 && poweroff" 
 alias upd="figlet updating | lolcat -F 0.2 && echo '\n' && sudo pacman -Syu && yay -Syu"
 alias updconfig="figlet updating config | lolcat && echo '\n' && sh ~/Programme/scripts/updconfig.sh"
-alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && sudo pacman -Rsn $(pacman -Qdtq)"
+alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && yay -Sc --noconfirm && sudo pacman -Rsn $(pacman -Qdtq)"
 
 # ssh shortcuts
 alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
