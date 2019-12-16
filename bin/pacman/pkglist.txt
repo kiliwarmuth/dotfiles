@@ -77,7 +77,6 @@ linux-firmware
 lolcat
 lxappearance
 m4
-mailspring
 make
 man-db
 man-pages
