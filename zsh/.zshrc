@@ -50,16 +50,6 @@ alias upd="figlet updating | lolcat -F 0.2 && echo '\n' && sudo pacman -Syu && y
 alias updconfig="figlet updating config | lolcat && echo '\n' && sh ~/Programme/scripts/updconfig.sh"
 alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && sudo pacman -Rsn $(pacman -Qdtq)"
 
-# ssh shortcuts
-alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
-alias sshlxhalle="ssh warmuth@lxhalle.in.tum.de"
-alias s1="ssh -p 60801 root@psa.in.tum.de"
-alias s2="ssh -p 60802 root@psa.in.tum.de"
-alias s3="ssh -p 60803 root@psa.in.tum.de"
-alias s4="ssh -p 60804 root@psa.in.tum.de"
-alias s5="ssh -p 60805 root@psa.in.tum.de"
-alias s6="ssh -p 60806 root@psa.in.tum.de"
-
 # git shortcuts
 alias gac="git add . && git commit -a -m"
 alias gis="git status"
