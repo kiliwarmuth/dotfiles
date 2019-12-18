@@ -28,6 +28,7 @@ dmenu
 dosfstools
 dropbox
 e2fsprogs
+easytag
 efibootmgr
 eog
 fakeroot
@@ -63,8 +64,8 @@ i3-gaps-rounded-git
 i3lock
 inetutils
 intel-ucode
-java-openjdk-bin
 jetbrains-toolbox
+jre-openjdk
 keychain
 korla-icon-theme-git
 less
