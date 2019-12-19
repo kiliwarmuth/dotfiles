@@ -1,4 +1,5 @@
 acpid
+aic94xx-firmware
 alsa-utils
 arandr
 autoconf
@@ -139,6 +140,7 @@ vim
 virtualbox
 virtualbox-guest-iso
 w3m
+wd719x-firmware
 wget
 which
 wpa_supplicant

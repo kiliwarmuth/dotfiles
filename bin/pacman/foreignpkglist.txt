@@ -1,3 +1,4 @@
+aic94xx-firmware
 cava
 compton-tryone-git
 dropbox
@@ -12,4 +13,7 @@ polybar
 spicetify-cli
 spotify
 tty-clock
+wd719x-firmware
+xf86-input-keyboard
+xf86-input-mouse
 yay
