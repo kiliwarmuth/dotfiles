@@ -37,44 +37,7 @@ source $ZSH/oh-my-zsh.sh
 export LANG=de_DE.UTF-8
 
 # aliases
-
-# cd shortcuts
-alias b="cd .."
-alias cdc="cd ~/.config/"
-alias cds="cd ~/Dropbox/Studium/Semester_5"
-alias dotfiles="cd ~/Dokumente/Github/dotfiles"
-
-# system maintance
-alias off="figlet poweroff | lolcat  && sleep 0.5 && poweroff" 
-alias upd="figlet updating | lolcat -F 0.2 && echo '\n' && sudo pacman -Syu && yay -Syu"
-alias updconfig="figlet updating config | lolcat && echo '\n' && sh ~/Programme/scripts/updconfig.sh"
-alias clean="figlet cleaning | lolcat && echo '\n' && yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && yay -Sc --noconfirm && sudo pacman -Rsn $(pacman -Qdtq)"
-
-# ssh shortcuts
-alias s="{eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null"
-
-# git shortcuts
-alias gac="git add . && git commit -a -m"
-alias gis="git status"
-alias gs="git add . && git commit -a -m 'updated' && git push"
-
-# random shortcuts (some useful, some not)
-alias bayernlogo="cat ~/.oh-my-zsh/bayernlogo.txt | lolcat"
-alias c="clear"
-alias v="nvim"
-alias vi="vim"
-alias lt='du -sh * | sort -h'
-alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
-alias gh='history | grep'
-alias ra="ranger"
-alias gt="gotop"
-alias clock="tty-clock -B -c -C 1"
-alias pipes="pipes.sh"
-alias cava="cava -p ~/.config/cava/config"
-alias arch="cowsay -f tux I use Arch btw."
-alias cat="bat"
-alias copyWD="sh ~/Programme/scripts/copyWD.sh"
-
+source $HOME/.aliases
 # end of aliases
 
 # bindkeys
