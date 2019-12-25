@@ -71,7 +71,7 @@ alias gt="gotop"
 alias clock="tty-clock -B -c -C 1"
 alias pipes="pipes.sh"
 alias cava="cava -p ~/.config/cava/config"
-alias arch="cowsay -f tux Im using Arch btw."
+alias arch="cowsay -f tux I use Arch btw."
 alias cat="bat"
 alias copyWD="sh ~/Programme/scripts/copyWD.sh"
 

@@ -169,6 +169,7 @@ xorg-xprop
 xorg-xrandr
 xss-lock
 yay
+youtube-dl
 zathura
 zathura-pdf-mupdf
 zenity
