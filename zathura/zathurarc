@@ -59,7 +59,10 @@ map p navigate previous
 set window-title-basename "true"
 set window-title-home-tilde "true"
 set render-loading "false"
-set scroll-step 150
-set smooth-scroll "true"
-set page-padding 10
 set selection-clipboard clipboard
+
+#stop at page boundries
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
