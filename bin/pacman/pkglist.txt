@@ -22,6 +22,7 @@ compton-tryone-git
 cowsay
 cronie
 cups
+dhclient
 dhcpcd
 dialog
 diff-so-fancy
