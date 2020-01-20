@@ -129,6 +129,8 @@ texlive-pictures
 texlive-pstricks
 texlive-publishers
 texlive-science
+tor
+tor-browser
 traceroute
 ttf-font-awesome
 ttf-hack
