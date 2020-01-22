@@ -16,6 +16,7 @@ brightnessctl
 cabal-install
 capitaine-cursors
 cava
+chkrootkit
 cmatrix
 code
 compton-tryone-git
@@ -106,6 +107,7 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 ranger
+rkhunter
 rofi
 rxvt-unicode
 s-nail
