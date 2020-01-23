@@ -9,6 +9,7 @@ i3-gaps-rounded-git
 jetbrains-toolbox
 korla-icon-theme-git
 onefetch
+pfetch-git
 pipes.sh
 polybar
 spicetify-cli

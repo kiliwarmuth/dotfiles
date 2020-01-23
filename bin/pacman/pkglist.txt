@@ -99,6 +99,7 @@ pacman
 pacman-contrib
 patch
 pavucontrol
+pfetch-git
 pipes.sh
 pkgconf
 playerctl

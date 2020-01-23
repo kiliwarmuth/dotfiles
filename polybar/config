@@ -66,7 +66,7 @@ font-4 = FontAwesome5Brands:style=Regular:size=11;2
 
 modules-left = i3 memory cpu temperature pulseaudio
 modules-center = xwindow
-modules-right = wlan battery date
+modules-right = bluetooth wlan battery date
 
 tray-position = right
 tray-padding = 5
@@ -246,6 +246,12 @@ label-muted-foreground = #FFFFFF
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
+
+[module/bluetooth]
+type = custom/script
+exec = ~/Programme/rofi-bluetooth/rofi-bluetooth --status
+interval = 1
+click-left = ~/Programme/rofi-bluetooth/rofi-bluetooth &
 
 ; ------------------------ END OF MODULES --------------------------------------------------
 
