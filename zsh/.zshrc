@@ -45,7 +45,7 @@ bindkey "^[[7~" beginning-of-line
 bindkey "^[[8~" end-of-line
 
 # Wos schert mit Weib? Wos schert mit Kind? 
-cowsay -f tux "Hauptsach' is, dass Bayern gwinnt!"
+#cowsay -f tux "Hauptsach' is, dass Bayern gwinnt!"
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then

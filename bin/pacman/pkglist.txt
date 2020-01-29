@@ -110,6 +110,7 @@ pulseaudio-bluetooth
 ranger
 rkhunter
 rofi
+rsync
 rxvt-unicode
 s-nail
 scrot
@@ -153,8 +154,6 @@ wpa_supplicant
 xautolock
 xclip
 xf86-input-evdev
-xf86-input-keyboard
-xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void

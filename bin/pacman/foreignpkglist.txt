@@ -17,6 +17,4 @@ spotify
 tor-browser
 tty-clock
 wd719x-firmware
-xf86-input-keyboard
-xf86-input-mouse
 yay
