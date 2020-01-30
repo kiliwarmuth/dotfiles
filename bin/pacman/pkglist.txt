@@ -102,6 +102,7 @@ pavucontrol
 pfetch-git
 pipes.sh
 pkgconf
+pkgfile
 playerctl
 polybar
 pulseaudio
