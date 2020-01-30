@@ -84,3 +84,4 @@ bindkey "^[[8~" end-of-line
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
+
