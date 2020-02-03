@@ -51,6 +51,7 @@ ghc-static
 gimp
 git
 gnome-calculator
+gnome-keyring
 gotop
 gparted
 gptfdisk
@@ -91,6 +92,7 @@ ncdu
 neofetch
 neovim
 network-manager-applet
+nextcloud-client
 nmap
 ntfs-3g
 onefetch
@@ -115,6 +117,7 @@ rsync
 rxvt-unicode
 s-nail
 scrot
+seahorse
 sed
 sl
 spicetify-cli

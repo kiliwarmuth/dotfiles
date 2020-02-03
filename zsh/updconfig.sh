@@ -10,6 +10,8 @@ cp -ru ~/.config/zathura/zathurarc ~/Dokumente/Github/dotfiles/zathura
 cp -ru ~/.Xresources ~/Dokumente/Github/dotfiles/Xresources
 cp -ru ~/.vimrc ~/Dokumente/Github/dotfiles/bin/vim
 cp -ru ~/.zshrc ~/Dokumente/Github/dotfiles/zsh
+cp -ru ~/.xinitrc ~/Dokumente/Github/dotfiles/bin/other_stuff/.xinitrc
+cp -ru ~/.zprofile ~/Dokumente/Github/dotfiles/bin/other_stuff/.zprofile
 cp -ru ~/.oh-my-zsh/themes/robbyrussell.zsh-theme ~/Dokumente/Github/dotfiles/zsh
 cp -ru ~/.config/Code\ -\ OSS/User/settings.json ~/Dokumente/Github/dotfiles/bin/vscode
 cp -ru ~/.config/neofetch/config.conf ~/Dokumente/Github/dotfiles/bin/neofetch
