@@ -13,7 +13,6 @@ blueman
 bluez
 bluez-utils
 brightnessctl
-cabal-install
 capitaine-cursors
 cava
 chkrootkit
@@ -47,7 +46,6 @@ gcc
 gedit
 gettext
 ghc
-ghc-static
 gimp
 git
 gnome-calculator
