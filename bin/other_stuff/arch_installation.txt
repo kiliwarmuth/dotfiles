@@ -59,4 +59,4 @@ pacman -S (alle relevanten Programme)
 
 reboot
 
-anschließend konfigurieren
+#anschließend konfigurieren
