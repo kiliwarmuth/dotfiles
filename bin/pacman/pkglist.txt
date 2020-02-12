@@ -104,6 +104,7 @@ pipes.sh
 pkgconf
 pkgfile
 playerctl
+plymouth
 polybar
 pulseaudio
 pulseaudio-alsa

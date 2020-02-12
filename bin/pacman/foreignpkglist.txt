@@ -11,6 +11,7 @@ korla-icon-theme-git
 onefetch
 pfetch-git
 pipes.sh
+plymouth
 polybar
 spicetify-cli
 spotify
