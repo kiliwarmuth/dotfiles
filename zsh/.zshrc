@@ -38,7 +38,6 @@ export LANG=de_DE.UTF-8
 
 # aliases
 source $HOME/.aliases
-# end of aliases
 
 # bindkeys
 bindkey "^[[7~" beginning-of-line
