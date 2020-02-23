@@ -1,4 +1,5 @@
 aic94xx-firmware
+cava
 chkrootkit
 compton-tryone-git
 ffmpeg-compat-57
