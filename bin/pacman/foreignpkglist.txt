@@ -1,11 +1,9 @@
 aic94xx-firmware
-cava
 chkrootkit
 compton-tryone-git
 ffmpeg-compat-57
 gotop
 i3-gaps-rounded-git
-jetbrains-toolbox
 korla-icon-theme-git
 onefetch
 pfetch-git
