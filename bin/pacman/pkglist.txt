@@ -16,7 +16,6 @@ brightnessctl
 capitaine-cursors
 cava
 chkrootkit
-cmatrix
 code
 compton-tryone-git
 cowsay
