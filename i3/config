@@ -211,7 +211,6 @@ bindsym $mod+c exec kill $(pidof compton)
 bindsym $mod+Shift+c exec compton --config ~/.config/compton/compton.conf --blur-method kawase --blur-strength 10
 
 # autostart 
-exec --no-startup-id dropbox
 exec --no-startup-id nextcloud
 
 # change screen resolution, set wallpaper and start polybar

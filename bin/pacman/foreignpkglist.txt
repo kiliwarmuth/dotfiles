@@ -2,7 +2,6 @@ aic94xx-firmware
 cava
 chkrootkit
 compton-tryone-git
-dropbox
 ffmpeg-compat-57
 gotop
 i3-gaps-rounded-git

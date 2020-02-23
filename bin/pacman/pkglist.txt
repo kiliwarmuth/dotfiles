@@ -28,11 +28,11 @@ dialog
 diff-so-fancy
 dmenu
 dosfstools
-dropbox
 e2fsprogs
 easytag
 efibootmgr
 eog
+exa
 fakeroot
 feh
 ffmpeg-compat-57
@@ -45,7 +45,6 @@ gawk
 gcc
 gedit
 gettext
-ghc
 gimp
 git
 gnome-calculator
@@ -59,8 +58,6 @@ grub
 grub-customizer
 gufw
 gzip
-haskell-hackage-security
-hlint
 htop
 i3-gaps-rounded-git
 i3lock
