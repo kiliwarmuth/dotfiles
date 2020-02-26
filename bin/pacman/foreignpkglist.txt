@@ -14,5 +14,6 @@ spicetify-cli
 spotify
 tor-browser
 tty-clock
+unimatrix-git
 wd719x-firmware
 yay

@@ -137,6 +137,7 @@ ttf-font-awesome
 ttf-hack
 tty-clock
 ufw
+unimatrix-git
 unzip
 usbutils
 util-linux
