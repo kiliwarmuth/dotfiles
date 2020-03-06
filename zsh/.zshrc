@@ -34,7 +34,42 @@ source $ZSH/oh-my-zsh.sh
 export LANG=de_DE.UTF-8
 
 # aliases
-source $HOME/.oh-my-zsh/.aliases
+
+alias arch='cowsay -f tux I use Arch btw'
+alias b='cd ..'
+alias bayernlogo='cat ~/.oh-my-zsh/bayernlogo.txt'
+alias c=clear
+alias cat=bat
+alias cava='cava -p ~/.config/cava/config'
+alias cdc='cd ~/.config/'
+alias cds='cd ~/Nextcloud/Studium/Semester_5'
+alias clean='yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && yay -Sc --noconfirm && sudo pacman -Rsn '
+alias clock='tty-clock -B -c -C 1'
+alias copyWD='sh ~/Programme/scripts/copyWD.sh'
+alias copyMUSIC='cp -u /home/kili/Nextcloud/Musik/* /home/kili/Media/Musik'
+alias colorpanes='bash ~/Programme/scripts/colorpanes.sh'
+alias dl='function _dl (){ youtube-dl --extract-audio --audio-format mp3 "$1"; };_dl'
+alias dotfiles='zsh ~/Programme/scripts/dotfiles.sh && cd ~/Dokumente/Github/dotfiles'
+alias ga='git add'
+alias gac='git add . && git commit -a -m'
+alias gis='git status'
+alias gs="git add . && git commit -a -m 'updated' && git push"
+alias gt=gotop
+alias lsd='sl -c -F -l -a |lolcat'
+alias ls='exa --color=auto'
+alias l='exa -a'
+alias la='exa -lah'
+alias lxhalle='ssh warmuth@lxhalle.in.tum.de'
+alias matrix='unimatrix -c red -s 96 -l 'o' -n'
+alias mnt='mount | awk -F'\'' '\'' '\''{ printf "%s\t%s\n",$1,$3; }'\'' | column -t | egrep ^/dev/ | sort'
+alias off='poweroff'
+alias pipes=pipes.sh
+alias pls='sudo'
+alias ra=ranger
+alias s=$'{eval "SSH_AUTH_SOCK=/tmp/ssh-39tr5wSfhID5/agent.1185; export SSH_AUTH_SOCK;\nSSH_AGENT_PID=1186; export SSH_AGENT_PID;\necho Agent pid 1186;" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null'
+alias upd='sudo pacman -Syu && yay -Syu'
+alias v=nvim
+alias vi=vim
 
 # bindkeys
 bindkey "^[[7~" beginning-of-line
