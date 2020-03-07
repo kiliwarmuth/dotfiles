@@ -55,7 +55,7 @@ bindsym $mod+d exec rofi -show drun
 bindsym $mod+Shift+d exec rofi -show run
 
 # rofi-bluetooth
-bindsym $mod+b exec --no-startup-id ~/Programme/rofi-bluetooth/rofi-bluetooth
+bindsym $mod+b exec --no-startup-id ~/.bin/rofi-bluetooth/rofi-bluetooth
 
 # change focus
 bindsym $mod+j focus left

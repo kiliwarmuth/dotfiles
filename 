@@ -1,0 +1,57 @@
+[38;5;11m[0m[38;5;11m────────────────────────────────────────────────────────────────────────────────────────────────────────
+[38;5;11mmodified: i3/config
+[38;5;11m────────────────────────────────────────────────────────────────────────────────────────────────────────
+[1;35m@ i3/config:58 @[1m[38;5;146m bindsym $mod+d exec rofi -show drun[0m
+bindsym $mod+Shift+d exec rofi -show run[m
+[m
+# rofi-bluetooth[m
+[1;31m[1;31mbindsym $mod+b exec --no-startup-id ~/[m[1;31;48;5;52mProgramme[m[1;31m/rofi-bluetooth/rofi-bluetooth[m
+[0m[1;32m[1;32mbindsym $mod+b exec --no-startup-id ~/[m[1;32;48;5;22m.bin[m[1;32m/rofi-bluetooth/rofi-bluetooth[m
+[0m[m
+# change focus[m
+bindsym $mod+j focus left[m
+[38;5;11m[0m[38;5;11m────────────────────────────────────────────────────────────────────────────────────────────────────────
+[38;5;11mmodified: polybar/config
+[38;5;11m────────────────────────────────────────────────────────────────────────────────────────────────────────
+[1;35m@ polybar/config:252 @[1m[38;5;146m ramp-volume-2 = [0m
+[m
+[module/bluetooth][m
+type = custom/script[m
+[1;31m[1;31mexec = ~/[m[1;31;48;5;52mProgramme[m[1;31m/rofi-bluetooth/rofi-bluetooth --status[m
+[0m[1;32m[1;32mexec = ~/[m[1;32;48;5;22m.bin[m[1;32m/rofi-bluetooth/rofi-bluetooth --status[m
+[0minterval = 1[m
+[1;31m[1;31mclick-left = ~/[m[1;31;48;5;52mProgramme[m[1;31m/rofi-bluetooth/rofi-bluetooth &[m
+[0m[1;32m[1;32mclick-left = ~/[m[1;32;48;5;22m.bin[m[1;32m/rofi-bluetooth/rofi-bluetooth &[m
+[0m[m
+; ------------------------ END OF MODULES --------------------------------------------------[m
+[m
+[38;5;11m[0m[38;5;11m────────────────────────────────────────────────────────────────────────────────────────────────────────
+[38;5;11mmodified: scripts/dotfiles.sh
+[38;5;11m────────────────────────────────────────────────────────────────────────────────────────────────────────
+[1;35m@ scripts/dotfiles.sh:25 @[1m[38;5;146m cp -ru ~/.mozilla/firefox/uri41cyr.default-release/chrome/* ~/Dokumente/Github/d[0m
+cp -ru ~/.themes/Custom-Dark ~/Dokumente/Github/dotfiles/themes[m
+cp -ru /etc/pacman.d/hooks/* ~/Dokumente/Github/dotfiles/bin/pacman[m
+cp -ru ~/.config/compton/compton.conf ~/Dokumente/Github/dotfiles/compton[m
+[1;31m[1;31mcp -ru ~/[m[1;31;48;5;52mProgramme[m[1;31m/scripts/dotfiles.sh ~/Dokumente/Github/dotfiles/scripts[m
+[0m[1;32m[1;32mcp -ru ~/[m[1;32;48;5;22m.bin[m[1;32m/scripts/dotfiles.sh ~/Dokumente/Github/dotfiles/scripts[m
+[0m[m
+# update list of installed packages[m
+pacman -Qqe > ~/Dokumente/Github/dotfiles/bin/pacman/pkglist.txt[m
+[38;5;11m[0m[38;5;11m────────────────────────────────────────────────────────────────────────────────────────────────────────
+[38;5;11mmodified: zsh/.zshrc
+[38;5;11m────────────────────────────────────────────────────────────────────────────────────────────────────────
+[1;35m@ zsh/.zshrc:48 @[1m[38;5;146m alias cdc='cd ~/.config/'[0m
+alias cds='cd ~/Nextcloud/Studium/Semester_5'[m
+alias clean='yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && yay -Sc --noconfirm && sudo pacman -Rsn '[m
+alias clock='tty-clock -B -c -C 1'[m
+[1;31m[1;31malias copyWD='sh ~/[m[1;31;48;5;52mProgramme[m[1;31m/scripts/copyWD.sh'[m
+[0m[1;32m[1;32malias copyWD='sh ~/[m[1;32;48;5;22m.bin[m[1;32m/scripts/copyWD.sh'[m
+[0malias copyMUSIC='cp -u /home/kili/Nextcloud/Musik/* /home/kili/Media/Musik'[m
+[1;31m[1;31malias colorpanes='bash ~/[m[1;31;48;5;52mProgramme[m[1;31m/scripts/colorpanes.sh'[m
+[0m[1;32m[1;32malias colorpanes='bash ~/[m[1;32;48;5;22m.bin[m[1;32m/scripts/colorpanes.sh'[m
+[0malias dl='function _dl (){ youtube-dl --extract-audio --audio-format mp3 "$1"; };_dl'[m
+[1;31m[1;31malias dotfiles='zsh ~/[m[1;31;48;5;52mProgramme[m[1;31m/scripts/dotfiles.sh && cd ~/Dokumente/Github/dotfiles'[m
+[0m[1;32m[1;32malias dotfiles='zsh ~/[m[1;32;48;5;22m.bin[m[1;32m/scripts/dotfiles.sh && cd ~/Dokumente/Github/dotfiles'[m
+[0malias ga='git add'[m
+alias gac='git add . && git commit -a -m'[m
+alias gis='git status'[m

@@ -249,9 +249,9 @@ ramp-volume-2 = 
 
 [module/bluetooth]
 type = custom/script
-exec = ~/Programme/rofi-bluetooth/rofi-bluetooth --status
+exec = ~/.bin/rofi-bluetooth/rofi-bluetooth --status
 interval = 1
-click-left = ~/Programme/rofi-bluetooth/rofi-bluetooth &
+click-left = ~/.bin/rofi-bluetooth/rofi-bluetooth &
 
 ; ------------------------ END OF MODULES --------------------------------------------------
 
