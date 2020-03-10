@@ -1,1 +1,1 @@
-urxvt -hold -e $SHELL -c 'neofetch | lolcat;$SHELL -i'
+urxvt -hold -e $SHELL -c 'neofetch;$SHELL -i'
