@@ -5,6 +5,7 @@ compton-tryone-git
 ffmpeg-compat-57
 gotop
 i3-gaps-rounded-git
+i3lock-fancy-git
 korla-icon-theme-git
 onefetch
 pfetch-git
@@ -16,4 +17,5 @@ tor-browser
 tty-clock
 unimatrix-git
 wd719x-firmware
+xidlehook
 yay

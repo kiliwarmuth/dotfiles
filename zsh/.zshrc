@@ -62,11 +62,11 @@ alias la='exa -lah'
 alias lxhalle='ssh warmuth@lxhalle.in.tum.de'
 alias matrix='unimatrix -c red -s 96 -l 'o' -n'
 alias mnt='mount | awk -F'\'' '\'' '\''{ printf "%s\t%s\n",$1,$3; }'\'' | column -t | egrep ^/dev/ | sort'
+alias neofetch='neofetch | lolcat && colorpanes'
 alias off='poweroff'
 alias pipes=pipes.sh
 alias pls='sudo'
 alias ra=ranger
-alias s=$'{eval "SSH_AUTH_SOCK=/tmp/ssh-39tr5wSfhID5/agent.1185; export SSH_AUTH_SOCK;\nSSH_AGENT_PID=1186; export SSH_AGENT_PID;\necho Agent pid 1186;" && ssh-add ~/.ssh/vmpsa/id_rsa} &> /dev/null'
 alias upd='sudo pacman -Syu && yay -Syu'
 alias v=nvim
 alias vi=vim

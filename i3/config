@@ -32,10 +32,11 @@ font pango:Hack 8
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend.
-exec --no-startup-id xss-lock -- ~/.config/i3/lock.sh --transfer-sleep-lock
+#exec --no-startup-id xss-lock -- ~/.config/i3/lock.sh --transfer-sleep-lock
 
 # lock screen after 10 minutes of idle
-exec --no-startup-id xautolock -locker '~/.config/i3/lock.sh' &
+#exec --no-startup-id xautolock -locker '~/.config/i3/lock.sh' &
+exec --no-startup-id xidlehook --not-when-fullscreen --not-when-audio --timer 600 '~/.config/i3/lock.sh' '' &
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.

@@ -60,6 +60,7 @@ gzip
 htop
 i3-gaps-rounded-git
 i3lock
+i3lock-fancy-git
 inetutils
 intel-ucode
 jre-openjdk
@@ -166,6 +167,7 @@ xf86-video-qxl
 xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
+xidlehook
 xorg-server
 xorg-xinit
 xorg-xprop
