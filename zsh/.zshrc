@@ -12,7 +12,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/kili/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -33,43 +33,63 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 export LANG=de_DE.UTF-8
 
-# aliases
 
+############################################# aliases ##################################################
+
+# just 4 fun
 alias arch='cowsay -f tux I use Arch btw'
-alias b='cd ..'
 alias bayernlogo='cat ~/.oh-my-zsh/bayernlogo.txt'
-alias c=clear
-alias cat=bat
 alias cava='cava -p ~/.config/cava/config'
-alias cdc='cd ~/.config/'
-alias cds='cd ~/Nextcloud/Studium/Semester_5'
-alias clean='yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && yay -Sc --noconfirm && sudo pacman -Rsn '
 alias clock='tty-clock -B -c -C 1'
-alias copyWD='sh ~/.bin/scripts/copyWD.sh'
-alias copyMUSIC='cp -u /home/kili/Nextcloud/Musik/* /home/kili/Media/Musik'
 alias colorpanes='bash ~/.bin/scripts/colorpanes.sh'
-alias dl='function _dl (){ youtube-dl --extract-audio --audio-format mp3 "$1"; };_dl'
-alias dotfiles='zsh ~/.bin/scripts/dotfiles.sh && cd ~/Dokumente/Github/dotfiles'
+alias matrix='unimatrix -c red -s 96 -l 'o' -n'
+alias neofetch='neofetch | lolcat && colorpanes'
+alias pipes=pipes.sh
+
+# git
 alias ga='git add'
 alias gac='git add . && git commit -a -m'
 alias gis='git status'
 alias gs="git add . && git commit -a -m 'updated' && git push"
+
+# maintenance
+alias clean='yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && yay -Sc --noconfirm && sudo pacman -Rsn '
+alias upd='sudo pacman -Syu && yay -Syu'
+
+# navigation
+alias cdc='cd ~/.config/'
+alias cds='cd ~/Nextcloud/Studium/Semester_5'
+
+# better alternatives
+
+# shortcuts
+alias b='cd ..'
+alias cat=bat
+alias c=clear
 alias gt=gotop
 alias lsd='sl -c -F -l -a |lolcat'
 alias ls='exa --color=auto'
 alias l='exa -a'
 alias la='exa -lah'
-alias lxhalle='ssh warmuth@lxhalle.in.tum.de'
-alias matrix='unimatrix -c red -s 96 -l 'o' -n'
-alias mnt='mount | awk -F'\'' '\'' '\''{ printf "%s\t%s\n",$1,$3; }'\'' | column -t | egrep ^/dev/ | sort'
-alias neofetch='neofetch | lolcat && colorpanes'
 alias off='poweroff'
-alias pipes=pipes.sh
 alias pls='sudo'
 alias ra=ranger
-alias upd='sudo pacman -Syu && yay -Syu'
 alias v=nvim
 alias vi=vim
+
+# scripts etc.
+alias copyWD='sh ~/.bin/scripts/copyWD.sh'
+alias copyMUSIC='cp -u /home/kili/Nextcloud/Musik/* /home/kili/Media/Musik'
+alias dotfiles='zsh ~/.bin/scripts/dotfiles.sh && cd ~/Dokumente/Github/dotfiles'
+alias mnt='mount | awk -F'\'' '\'' '\''{ printf "%s\t%s\n",$1,$3; }'\'' | column -t | egrep ^/dev/ | sort'
+alias yt='function _dl (){ youtube-dl --add-metadata -i --extract-audio --audio-format mp3 "$1"; };_dl'
+
+# ssh
+alias lxhalle='ssh warmuth@lxhalle.in.tum.de'
+
+
+############################################# aliases ##################################################
+
 
 # bindkeys
 bindkey "^[[7~" beginning-of-line
