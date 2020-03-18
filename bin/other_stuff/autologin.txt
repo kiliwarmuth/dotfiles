@@ -1,5 +1,4 @@
-Autologin:
-getty
+# Autologin
 sudo systemctl edit getty@tty1
 
 add:
