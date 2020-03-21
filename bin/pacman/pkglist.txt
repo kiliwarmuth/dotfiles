@@ -25,6 +25,7 @@ dhclient
 dhcpcd
 dialog
 diff-so-fancy
+discord
 dmenu
 dosfstools
 e2fsprogs
