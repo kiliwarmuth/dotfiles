@@ -146,6 +146,7 @@ util-linux
 vim
 virtualbox
 virtualbox-guest-iso
+virtualbox-guest-utils
 w3m
 wd719x-firmware
 wget

@@ -4,7 +4,9 @@ mit gdisk/fdisk/cfdisk geeignet partitionieren
 
 z.B. mit gdisk
 gdisk /dev/x | x ist Festplatte
-n -> enter -> +476G -> enter -> n -> enter -> enter -> ef02 -> w
+n -> enter -> enter -> +476G -> enter # linux partition
+n -> enter -> enter -> ef02 -> enter # grub partition
+p -> w      # check and write
 mkfs.fat -F 32 -n EFIBOOT /dev/nvme0n1p2
 mkfs.ext4 -L p_arch /dev/nvme0n1p1
 
