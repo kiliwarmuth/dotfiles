@@ -465,7 +465,7 @@ body {
 }
 
 body {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
   cursor: default;
 }
 
@@ -6864,7 +6864,7 @@ body:not(.scrollbar-style-when-scrolling-mac):not(.scrollbar-style-visible-mac):
 }
 
 .scrollbar-style-visible-mac ::-webkit-scrollbar-track, .scrollbar-style-visible-mac::-webkit-scrollbar-track, .scrollbar-style-visible-windows ::-webkit-scrollbar-track, .scrollbar-style-visible-windows::-webkit-scrollbar-track, .scrollbar-style-visible-linux ::-webkit-scrollbar-track, .scrollbar-style-visible-linux::-webkit-scrollbar-track {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
 }
 .scrollbar-style-visible-mac::-webkit-scrollbar,
 .scrollbar-style-visible-mac ::-webkit-scrollbar,
@@ -6898,7 +6898,7 @@ body:not(.scrollbar-style-when-scrolling-mac):not(.scrollbar-style-visible-mac):
   background-color: var(--modspotify_secondary_fg);
 }
 .scrollbar-style-visible-mac::-webkit-scrollbar-corner, .scrollbar-style-visible-mac ::-webkit-scrollbar-corner, .scrollbar-style-visible-windows::-webkit-scrollbar-corner, .scrollbar-style-visible-windows ::-webkit-scrollbar-corner, .scrollbar-style-visible-linux::-webkit-scrollbar-corner, .scrollbar-style-visible-linux ::-webkit-scrollbar-corner {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
 }
 
 .scrollbar-style-visible-mac::-webkit-scrollbar-thumb, .scrollbar-style-visible-mac ::-webkit-scrollbar-thumb {
@@ -6916,7 +6916,7 @@ body:not(.scrollbar-style-when-scrolling-mac):not(.scrollbar-style-visible-mac):
 }
 
 .scrollbar-style-visible-windows::-webkit-scrollbar-button, .scrollbar-style-visible-windows ::-webkit-scrollbar-button, .scrollbar-style-visible-linux::-webkit-scrollbar-button, .scrollbar-style-visible-linux ::-webkit-scrollbar-button {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
   background-image: url("https://d2j0f09xqmv212.cloudfront.net/images/scrollbar-buttons.png");
   background-size: 16px 64px;
 }
@@ -6966,7 +6966,7 @@ body:not(.scrollbar-style-when-scrolling-mac):not(.scrollbar-style-visible-mac):
 }
 .scrollbar-style-visible-windows.is-login-page.body-container--windows::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-windows.is-main-content-page-iframe.body-container--windows::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-windows.body-container--windows .is-main-content-page-embedded::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-linux.is-login-page.body-container--windows::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-linux.is-main-content-page-iframe.body-container--windows::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-linux.body-container--windows .is-main-content-page-embedded::-webkit-scrollbar-button:vertical:decrement:start {
   background-color: transparent;
-  background-image: url("https://d2j0f09xqmv212.cloudfront.net/images/scrollbar-buttons.png"), linear-gradient(to bottom, var(--modspotify_sidebar_and_player_bg), var(--modspotify_sidebar_and_player_bg) 16px);
+  background-image: url("https://d2j0f09xqmv212.cloudfront.net/images/scrollbar-buttons.png"), linear-gradient(to bottom, var(--modspotify_main_bg), var(--modspotify_main_bg) 16px);
   background-repeat: no-repeat;
 }
 .scrollbar-style-visible-windows.is-login-page.body-container--windows::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-windows.is-main-content-page-iframe.body-container--windows::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-windows.body-container--windows .is-main-content-page-embedded::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-linux.is-login-page.body-container--windows::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-linux.is-main-content-page-iframe.body-container--windows::-webkit-scrollbar-button:vertical:decrement:start, .scrollbar-style-visible-linux.body-container--windows .is-main-content-page-embedded::-webkit-scrollbar-button:vertical:decrement:start {
@@ -7010,7 +7010,7 @@ body:not(.scrollbar-style-when-scrolling-mac):not(.scrollbar-style-visible-mac):
 }
 
 .dnd-image-shelter {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
 }
 
 .dnd-image-shelter {
@@ -7052,7 +7052,7 @@ body:not(.scrollbar-style-when-scrolling-mac):not(.scrollbar-style-visible-mac):
 }
 
 .dnd-image::before {
-  background: var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
   border-radius: 4px;
   box-shadow: 0 2px 5px var(--modspotify_sidebar_and_player_bg);
 }
@@ -7115,7 +7115,7 @@ code {
 
 code {
   padding: 2px 4px;
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
   border-radius: 4px;
 }
 
@@ -7132,7 +7132,7 @@ pre {
 
 pre {
   padding: 10px;
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
 }
 pre.prettyprint {
   margin-bottom: 20px;
@@ -11836,7 +11836,7 @@ legend {
   padding: 0;
   margin-bottom: 20px;
   border: 0;
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 label {
@@ -11916,7 +11916,7 @@ output {
 }
 .form-control:focus {
   outline: 0;
-  color: var(--modspotify_sidebar_and_player_bg);
+  color: var(--modspotify_main_bg);
 }
 .form-control:focus {
   border-color: var(--modspotify_main_fg);
@@ -12220,7 +12220,7 @@ input[type=radio][disabled], fieldset[disabled] input[type=radio], input[type=ch
 }
 
 .dropdown-interior-menu {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
   padding: 0;
   margin: 0;
 }
@@ -12303,7 +12303,7 @@ input[type=radio][disabled], fieldset[disabled] input[type=radio], input[type=ch
 .dropdown-menu {
   padding: 0;
   margin: 0;
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
   border: 1px solid rgba(var(--modspotify_rgb_cover_overlay_and_shadow),0.15);
   border-radius: 8px;
   box-shadow: 0 4px 12px 4px rgba(var(--modspotify_rgb_cover_overlay_and_shadow),0.5);
@@ -12333,7 +12333,7 @@ input[type=radio][disabled], fieldset[disabled] input[type=radio], input[type=ch
 }
 .dropdown-menu:not(.no-arrow).arrow-top::before {
   border: 10px solid transparent;
-  border-bottom: 10px solid var(--modspotify_main_bg);
+  border-bottom: 10px solid var(--modspotify_sidebar_and_player_bg);
 }
 .dropdown-menu:not(.no-arrow).arrow-top::before {
   left: 50%;
@@ -12353,7 +12353,7 @@ input[type=radio][disabled], fieldset[disabled] input[type=radio], input[type=ch
 }
 .dropdown-menu:not(.no-arrow).arrow-bottom::before {
   border: 10px solid transparent;
-  border-top: 10px solid var(--modspotify_main_bg);
+  border-top: 10px solid var(--modspotify_sidebar_and_player_bg);
 }
 .dropdown-menu:not(.no-arrow).arrow-bottom::before {
   left: 50%;
@@ -12379,7 +12379,7 @@ input[type=radio][disabled], fieldset[disabled] input[type=radio], input[type=ch
 }
 .dropdown-menu:not(.no-arrow).arrow-right::before {
   right: -20px;
-  border-left: 10px solid var(--modspotify_main_bg);
+  border-left: 10px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .dropdown-menu:not(.no-arrow).arrow-left {
@@ -12400,7 +12400,7 @@ input[type=radio][disabled], fieldset[disabled] input[type=radio], input[type=ch
 }
 .dropdown-menu:not(.no-arrow).arrow-left::before {
   left: -20px;
-  border-right: 10px solid var(--modspotify_main_bg);
+  border-right: 10px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .dropdown-menu:not(.no-arrow).arrow-position-left::before {
@@ -12628,7 +12628,7 @@ input[type=radio][disabled], fieldset[disabled] input[type=radio], input[type=ch
 hr {
   margin: 5px 0;
   border: 0;
-  border-top: 1px solid var(--modspotify_main_bg);
+  border-top: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 /**
@@ -12663,7 +12663,7 @@ hr {
   color: var(--modspotify_main_fg);
 }
 .section-divider {
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
   margin: 0 0 16px;
   padding: 26px 0 4px;
 }
@@ -12773,10 +12773,10 @@ th {
 }
 .table th, .table td {
   padding: 8px;
-  border-top: 1px solid var(--modspotify_main_bg);
+  border-top: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 .table tbody > tr:last-child > td {
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 .table thead th {
   border-top: 0;
@@ -12826,8 +12826,8 @@ th {
 
 .list-group-item {
   padding: 10px;
-  border-bottom: 1px solid var(--modspotify_main_bg);
-  border-top: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
+  border-top: 1px solid var(--modspotify_sidebar_and_player_bg);
   margin-top: -1px;
 }
 
@@ -13019,7 +13019,7 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .list-group-item.list-group-item-media:hover, .list-group-item.list-group-item-media:active {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
 }
 .list-group-item.list-group-item-media.multiline .item-data {
   line-height: 1.5;
@@ -13276,7 +13276,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .nav {
   margin-bottom: 0;
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 .nav {
   margin-left: 0;
@@ -13493,8 +13493,8 @@ a.list-group-item.active .list-group-item-text {
   z-index: 1020;
 }
 .navbar.sticky-top {
-  background: var(--modspotify_main_bg);
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .navbar-fixed-wrapper {
@@ -13648,7 +13648,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .tooltip, #tooltip {
   padding: 3px 8px;
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
   border-radius: 4px;
   box-shadow: 0 4px 12px 4px rgba(var(--modspotify_rgb_cover_overlay_and_shadow),0.5);
 }
@@ -13668,7 +13668,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .tooltip:not(.no-arrow).arrow-top::before, #tooltip:not(.no-arrow).arrow-top::before {
   border: 5px solid transparent;
-  border-bottom: 5px solid var(--modspotify_main_bg);
+  border-bottom: 5px solid var(--modspotify_sidebar_and_player_bg);
 }
 .tooltip:not(.no-arrow).arrow-top::before, #tooltip:not(.no-arrow).arrow-top::before {
   left: 50%;
@@ -13688,7 +13688,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .tooltip:not(.no-arrow).arrow-bottom::before, #tooltip:not(.no-arrow).arrow-bottom::before {
   border: 5px solid transparent;
-  border-top: 5px solid var(--modspotify_main_bg);
+  border-top: 5px solid var(--modspotify_sidebar_and_player_bg);
 }
 .tooltip:not(.no-arrow).arrow-bottom::before, #tooltip:not(.no-arrow).arrow-bottom::before {
   left: 50%;
@@ -13714,7 +13714,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .tooltip:not(.no-arrow).arrow-right::before, #tooltip:not(.no-arrow).arrow-right::before {
   right: -10px;
-  border-left: 5px solid var(--modspotify_main_bg);
+  border-left: 5px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .tooltip:not(.no-arrow).arrow-left, #tooltip:not(.no-arrow).arrow-left {
@@ -13735,7 +13735,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .tooltip:not(.no-arrow).arrow-left::before, #tooltip:not(.no-arrow).arrow-left::before {
   left: -10px;
-  border-right: 5px solid var(--modspotify_main_bg);
+  border-right: 5px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .tooltip:not(.no-arrow).arrow-position-left::before, #tooltip:not(.no-arrow).arrow-position-left::before {
@@ -13760,7 +13760,7 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .tooltip.text .tooltip-inner, .text#tooltip .tooltip-inner {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
   text-align: center;
 }
 
@@ -13773,7 +13773,7 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .tooltip-arrow-top, .tooltip-arrow-bottom {
-  border-bottom: 5px solid var(--modspotify_main_bg);
+  border-bottom: 5px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .tooltip-arrow-top, .tooltip-arrow-bottom {
@@ -13792,7 +13792,7 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .tooltip-arrow-bottom {
-  border-top: 5px solid var(--modspotify_main_bg);
+  border-top: 5px solid var(--modspotify_sidebar_and_player_bg);
   border-bottom: 0;
 }
 
@@ -13882,7 +13882,7 @@ a.list-group-item.active .list-group-item-text {
   white-space: normal;
 }
 .popover {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
   background-clip: padding-box;
   border-radius: 8px;
 }
@@ -13902,7 +13902,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .popover:not(.no-arrow).arrow-top::before {
   border: 10px solid transparent;
-  border-bottom: 10px solid var(--modspotify_main_bg);
+  border-bottom: 10px solid var(--modspotify_sidebar_and_player_bg);
 }
 .popover:not(.no-arrow).arrow-top::before {
   left: 50%;
@@ -13922,7 +13922,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .popover:not(.no-arrow).arrow-bottom::before {
   border: 10px solid transparent;
-  border-top: 10px solid var(--modspotify_main_bg);
+  border-top: 10px solid var(--modspotify_sidebar_and_player_bg);
 }
 .popover:not(.no-arrow).arrow-bottom::before {
   left: 50%;
@@ -13948,7 +13948,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .popover:not(.no-arrow).arrow-right::before {
   right: -20px;
-  border-left: 10px solid var(--modspotify_main_bg);
+  border-left: 10px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .popover:not(.no-arrow).arrow-left {
@@ -13969,7 +13969,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .popover:not(.no-arrow).arrow-left::before {
   left: -20px;
-  border-right: 10px solid var(--modspotify_main_bg);
+  border-right: 10px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .popover:not(.no-arrow).arrow-position-left::before {
@@ -13989,14 +13989,14 @@ a.list-group-item.active .list-group-item-text {
   bottom: 20px;
 }
 .popover:not(.no-arrow).arrow-top::before {
-  border-bottom-color: var(--modspotify_main_bg);
+  border-bottom-color: var(--modspotify_sidebar_and_player_bg);
 }
 .popover.arrow-right.arrow-position-top::before {
-  border-left-color: var(--modspotify_main_bg);
+  border-left-color: var(--modspotify_sidebar_and_player_bg);
 }
 
 .popover.arrow-left.arrow-position-top::before {
-  border-right-color: var(--modspotify_main_bg);
+  border-right-color: var(--modspotify_sidebar_and_player_bg);
 }
 
 
@@ -14023,7 +14023,7 @@ a.list-group-item.active .list-group-item-text {
   margin: 0;
   padding: 2px 8px 0;
   text-align: center;
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
   border-bottom: 1px solid var(--modspotify_slider_bg);
 }
 
@@ -14038,7 +14038,7 @@ a.list-group-item.active .list-group-item-text {
 
 .popover-footer {
   padding-top: 0;
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
 }
 
 .popover-footer {
@@ -14056,7 +14056,7 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .popover-content-scroll-area {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
 }
 
 /**
@@ -14069,8 +14069,8 @@ a.list-group-item.active .list-group-item-text {
   color: var(--modspotify_secondary_fg);
 }
 .popover-addendum {
-  background-color: var(--modspotify_main_bg);
-  border-top: 1px solid var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
+  border-top: 1px solid var(--modspotify_main_bg);
 }
 
 
@@ -14096,7 +14096,7 @@ a.list-group-item.active .list-group-item-text {
   transition: opacity 0.3s linear, top 0.3s ease-out;
 }
 .popover.modal {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
 }
 .popover.modal {
   right: 0;
@@ -14206,7 +14206,7 @@ a.list-group-item.active .list-group-item-text {
  * Styleguide 50.6.2
  */
 .modal-generic {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
 }
 .modal-generic .modal-generic-title {
   font-size: 14px;
@@ -14217,7 +14217,7 @@ a.list-group-item.active .list-group-item-text {
   text-transform: none;
 }
 .modal-generic .modal-generic-title {
-  background: var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
   text-align: center;
   padding: 10px;
 }
@@ -14684,14 +14684,14 @@ a.list-group-item.active .list-group-item-text {
   letter-spacing: 0.16em;
   display: inline;
   line-height: 1;
-  color: var(--modspotify_main_bg);
+  color: var(--modspotify_sidebar_and_player_bg);
   white-space: nowrap;
   vertical-align: middle;
   font-weight: var(--glue-font-weight-bold);
 }
 .label {
   padding: 0.5em 0.6em 0.35em;
-  text-shadow: 0 0 var(--modspotify_main_bg);
+  text-shadow: 0 0 var(--modspotify_sidebar_and_player_bg);
   text-align: center;
   background-color: var(--modspotify_secondary_fg);
   border-radius: 0.25em;
@@ -14772,7 +14772,7 @@ a.list-group-item.active .list-group-item-text {
 
 
 .calendar-icon-day {
-  color: var(--modspotify_main_bg);
+  color: var(--modspotify_sidebar_and_player_bg);
   height: 32px;
   line-height: 32px;
   font-size: 22px;
@@ -15073,7 +15073,7 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .card-placeholder-wrapper {
-  background: var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
 }
 
 .card-image-link {
@@ -16525,10 +16525,10 @@ a.list-group-item.active .list-group-item-text {
   border: 0;
 }
 .card-horizontal > .card-horizontal-interior-wrapper:hover, .card-horizontal > .card-horizontal-interior-wrapper:active {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
 }
 .card-horizontal.pressed > .card-horizontal-interior-wrapper, .card-horizontal.contextmenu-active > .card-horizontal-interior-wrapper {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
 }
 .card-horizontal .card-image-wrapper {
   width: 96px;
@@ -17604,7 +17604,7 @@ a.list-group-item.active .list-group-item-text {
   display: none;
 }
 .glue-page-header__content-overlay {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
 }
 .glue-page-header__content-overlay {
   right: 0;
@@ -17819,7 +17819,7 @@ a.list-group-item.active .list-group-item-text {
 }
 .glue-page-header__background-color {
   background-color: var(--modspotify_main_bg);
-  background-image: linear-gradient(to bottom, transparent, var(--modspotify_sidebar_and_player_bg));
+  background-image: linear-gradient(to bottom, transparent, var(--modspotify_main_bg));
 }
 .glue-page-header__background-color {
   right: 0;
@@ -17901,7 +17901,7 @@ a.list-group-item.active .list-group-item-text {
   pointer-events: none;
 }
 .glue-page-header__background-image-overlay-gradient {
-  background: linear-gradient(to bottom, transparent, var(--modspotify_sidebar_and_player_bg));
+  background: linear-gradient(to bottom, transparent, var(--modspotify_main_bg));
 }
 .glue-page-header__background-image-overlay-gradient {
   right: 0;
@@ -17922,7 +17922,7 @@ a.list-group-item.active .list-group-item-text {
   pointer-events: none;
 }
 .glue-page-header__background-scroll-overlay {
-  background: var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
 }
 .glue-page-header__background-scroll-overlay {
   right: 0;
@@ -17947,7 +17947,7 @@ a.list-group-item.active .list-group-item-text {
   pointer-events: none;
 }
 .glue-page-header__background-scroll-overlay-ellipse {
-  background-image: radial-gradient(circle farthest-corner, transparent, var(--modspotify_main_bg) 50%);
+  background-image: radial-gradient(circle farthest-corner, transparent, var(--modspotify_sidebar_and_player_bg) 50%);
 }
 .glue-page-header__background-scroll-overlay-ellipse {
   right: 0;
@@ -17970,7 +17970,7 @@ a.list-group-item.active .list-group-item-text {
   pointer-events: none;
 }
 .glue-page-header__background-scroll-overlay-ellipse-backdrop {
-  background: var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
 }
 .glue-page-header__background-scroll-overlay-ellipse-backdrop {
   right: 0;
@@ -17994,7 +17994,7 @@ a.list-group-item.active .list-group-item-text {
   box-sizing: content-box;
 }
 .glue-page-header__full-description-overlay {
-  background-color: var(--modspotify_main_bg);
+  background-color: var(--modspotify_sidebar_and_player_bg);
   box-shadow: 0 4px 12px 4px rgba(var(--modspotify_rgb_cover_overlay_and_shadow),0.5);
   border-radius: 8px;
   padding: 8px 16px;
@@ -18406,7 +18406,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
  * Public modifier class for a header with an active sticky header.
  */
 .glue-page-header--with-active-sticky-header .glue-page-header__background-scroll-overlay-ellipse {
-  background: var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
 }
 .glue-page-header--with-active-sticky-header .glue-page-header__content,
 .glue-page-header--with-active-sticky-header .facepile-list-container {
@@ -18492,7 +18492,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
   transform: translateY(-48px);
 }
 .glue-page-header--with-active-sticky-header .glue-page-header__background {
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 .glue-page-header--with-active-sticky-header .glue-page-header__background {
   right: -16px;
@@ -18758,7 +18758,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
   height: auto;
 }
 .glue-page-header--sponsored .glue-page-header__background-image-overlay-gradient {
-  background: linear-gradient(to bottom, transparent, var(--modspotify_sidebar_and_player_bg) 70%);
+  background: linear-gradient(to bottom, transparent, var(--modspotify_main_bg) 70%);
 }
 .glue-page-header--sponsored .glue-page-header--with-active-sticky-header .glue-page-header__sponsorship {
   opacity: 0;
@@ -18815,7 +18815,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
 }
 @media (max-height: 750px) {
   .glue-page-header--sponsored .glue-page-header__background-image-overlay-gradient {
-    background: linear-gradient(to bottom, transparent, var(--modspotify_sidebar_and_player_bg) 50%);
+    background: linear-gradient(to bottom, transparent, var(--modspotify_main_bg) 50%);
   }
 }
 @media (max-width: 819px) {
@@ -18833,7 +18833,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
 }
 
 .glue-page-header__top-bar {
-  background: linear-gradient(var(--modspotify_main_bg), var(--modspotify_main_bg) 48px, transparent);
+  background: linear-gradient(var(--modspotify_sidebar_and_player_bg), var(--modspotify_sidebar_and_player_bg) 48px, transparent);
 }
 
 .glue-page-header__top-bar {
@@ -18861,7 +18861,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
   position: relative;
 }
 .header {
-  background: var(--modspotify_sidebar_and_player_bg);
+  background: var(--modspotify_main_bg);
   margin: 0 auto;
 }
 .header {
@@ -18973,7 +18973,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
 }
 
 .h-search-bar {
-  border-top: 1px solid var(--modspotify_main_bg);
+  border-top: 1px solid var(--modspotify_sidebar_and_player_bg);
   margin: 0;
 }
 
@@ -18992,7 +18992,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
   max-width: 1480px;
 }
 .h-search-field-wrapper.sticky-top {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
 }
 .h-search-field-wrapper.sticky-top {
   left: 0 !important;
@@ -19096,7 +19096,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
 }
 
 .h-search-suggestions {
-  background: var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
   border-radius: 3px;
   padding: 0;
 }
@@ -19149,7 +19149,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
   background-position: 50% 0;
   background-size: cover;
   background-color:  var(--modspotify_sidebar_and_player_bg);
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 .header-image::before {
   bottom: 0;
@@ -19325,7 +19325,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
   z-index: 1020;
 }
 .h-sticky-header .h-sticky-header-inner {
-  background-color: var(--modspotify_sidebar_and_player_bg);
+  background-color: var(--modspotify_main_bg);
   padding: 0;
 }
 .h-sticky-header .h-sticky-header-inner {
@@ -19338,7 +19338,7 @@ html:lang(th) .glue-page-header__sticky .glue-page-header__title {
   top: 0;
 }
 .h-sticky-header .h-sticky-container {
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
   padding-bottom: 16px;
   padding-top: 16px;
 }
@@ -19449,10 +19449,10 @@ th {
 }
 .table th, .table td {
   padding: 8px;
-  border-top: 1px solid var(--modspotify_main_bg);
+  border-top: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 .table tbody > tr:last-child > td {
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 .table thead th {
   border-top: 0;
@@ -19721,7 +19721,7 @@ th {
 
 .tracklist-station-container::after {
   margin-top: -250px;
-  background: linear-gradient(rgba(var(--modspotify_rgb_sidebar_and_player_bg),0), var(--modspotify_sidebar_and_player_bg));
+  background: linear-gradient(rgba(var(--modspotify_rgb_sidebar_and_player_bg),0), var(--modspotify_main_bg));
 }
 
 @media screen and (max-width: 850px) {
@@ -19765,7 +19765,7 @@ th {
 }
 
 .tracklist-album, .tracklist-chart, .tracklist-basic, .tracklist-playlist, .tracklist-podcast, .tracklist-popular, .tracklist-station, .tracklist-queue, .tracklist-search {
-  border-bottom: 1px solid var(--modspotify_main_bg);
+  border-bottom: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .tl-header th,
@@ -19774,7 +19774,7 @@ th {
 }
 
 .tl-header th, .tl-cell {
-  border-top: 1px solid var(--modspotify_main_bg);
+  border-top: 1px solid var(--modspotify_sidebar_and_player_bg);
 }
 
 .tl-header th, .tl-cell {
@@ -19865,7 +19865,7 @@ th {
 
 
 .sticky-clone .tl-header {
-  background: var(--modspotify_sidebar_and_player_bg);
+  background: var(--modspotify_main_bg);
 }
 
 .tl-cell {
@@ -20443,11 +20443,11 @@ th {
   display: inline-block;
 }
 .tl-row.selected + .tl-row .tl-cell {
-  border-top-color: var(--modspotify_sidebar_and_player_bg);
+  border-top-color: var(--modspotify_main_bg);
 }
 .tl-row.selected .tl-cell {
   background-color: var(--modspotify_scrollbar_fg_and_selected_row_bg);
-  border-color: var(--modspotify_sidebar_and_player_bg);
+  border-color: var(--modspotify_main_bg);
 }
 .tl-row.added .tl-save .button {
   visibility: visible;
@@ -20533,7 +20533,7 @@ th {
 }
 
 .tl-row:hover .tl-cell, .tl-row.contextmenu-active .tl-cell {
-  background: var(--modspotify_main_bg);
+  background: var(--modspotify_sidebar_and_player_bg);
 }
 .tl-row:hover .tl-message, .tl-row.contextmenu-active .tl-message {
   background: transparent;
@@ -21622,7 +21622,7 @@ th[data-sort]:hover {
   height: auto !important;
 }
 .interaction-debug.interaction-debug-wireframes .navbar.sticky-top {
-  background-color: var(--modspotify_main_bg) !important;
+  background-color: var(--modspotify_sidebar_and_player_bg) !important;
 }
 .interaction-debug.interaction-debug-wireframes .scroll-container-enabled .tl-row {
   will-change: unset !important;

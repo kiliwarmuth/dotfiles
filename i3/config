@@ -203,6 +203,9 @@ bindsym $mod+r mode "resize"
 # shutdown bindsym
 bindsym $mod+Shift+s exec shutdown 0
 
+# toggle polybar
+bindsym $mod+p exec polybar-msg cmd toggle
+
 # change to correct keyboard map
 exec --no-startup-id setxkbmap -layout de
 
