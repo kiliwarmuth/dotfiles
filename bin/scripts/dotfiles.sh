@@ -37,8 +37,9 @@ cp -ru ~/.mozilla/firefox/uri41cyr.default-release/chrome/* ~/Dokumente/Github/d
 cp -ru ~/.themes/Custom-Dark/* ~/Dokumente/Github/dotfiles/themes/Custom-Dark-GTK
 # compton
 cp -ru ~/.config/compton/compton.conf ~/Dokumente/Github/dotfiles/config/compton
-# this script
+# script
 cp -ru ~/.bin/scripts/dotfiles.sh ~/Dokumente/Github/dotfiles/bin/scripts
+cp -ru ~/.bin/scripts/spotify_status.py ~/Dokumente/Github/dotfiles/bin/scripts
 # update list of installed packages
 pacman -Qqe > ~/Dokumente/Github/dotfiles/other_stuff/pacman/pkglist.txt
 pacman -Qqem > ~/Dokumente/Github/dotfiles/other_stuff/pacman/foreignpkglist.txt
