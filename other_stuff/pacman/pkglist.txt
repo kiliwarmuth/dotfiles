@@ -31,6 +31,7 @@ e2fsprogs
 easytag
 efibootmgr
 eog
+evince
 exa
 fakeroot
 feh
