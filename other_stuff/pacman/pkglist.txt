@@ -18,6 +18,7 @@ cava
 code
 compton-tryone-git
 cowsay
+cpufetch-git
 cronie
 cups
 dhclient
