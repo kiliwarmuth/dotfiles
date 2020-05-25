@@ -1,5 +1,12 @@
-## Configuration file for CAVA. Default values are commented out. Use either ';' or '#' for commenting.
+##########################
+#   ___ __ ___   ____ _  #
+#  / __/ _` \ \ / / _` | #
+# | (_| (_| |\ V / (_| | #
+#  \___\__,_| \_/ \__,_| #
+#			 #
+##########################
 
+# Configuration file for CAVA. Default values are commented out. Use either ';' or '#' for commenting.
 
 [general]
 
