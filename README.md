@@ -7,7 +7,7 @@
 - **Menu**: rofi
 - **OS**: Arch Linux
 	
-	< I use Arch btw >
+	\< I use Arch btw \>
 	   \
 	    \
 	        .--.
