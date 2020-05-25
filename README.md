@@ -7,6 +7,7 @@
 - **Menu**: rofi
 - **OS**: Arch Linux
 
+:::bash
 	 ________________ 
 	< I use Arch btw >
 	 ---------------- 
