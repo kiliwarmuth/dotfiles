@@ -5,6 +5,22 @@
 - **Terminal**: urxvt
 - **Shell**: zsh
 - **Menu**: rofi
+- **OS**: Arch Linux
+
+ ________________ 
+< I use Arch btw >
+ ---------------- 
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+
 ---
 ![Screenshot](https://github.com/089kili/dotfiles/blob/master/themes/screenshots/Screenshot1.png)
 ---
