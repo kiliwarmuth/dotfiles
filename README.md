@@ -8,7 +8,6 @@
 - **OS**: Arch Linux
 
       I use Arch btw 
-    
        \
         \
             .--.
