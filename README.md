@@ -6,8 +6,7 @@
 - **Shell**: zsh
 - **Menu**: rofi
 - **OS**: Arch Linux
-
-:::bash
+	
 	 ________________ 
 	< I use Arch btw >
 	 ---------------- 
@@ -20,7 +19,7 @@
 	     (|     | )
 	    /'\_   _/`\
 	    \___)=(___/
-
+	
 
 ---
 ![Screenshot](https://github.com/089kili/dotfiles/blob/master/themes/screenshots/Screenshot1.png)
