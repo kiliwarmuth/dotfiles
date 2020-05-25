@@ -8,7 +8,7 @@
 - **OS**: Arch Linux
 
      ________________ 
-    < I use Arch btw >
+      I use Arch btw 
      ---------------- 
        \
         \
