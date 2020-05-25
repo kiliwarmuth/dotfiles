@@ -8,7 +8,6 @@
 - **OS**: Arch Linux
 
 <!-- language: lang-none -->
-
  ________________ 
 < I use Arch btw >
  ---------------- 
