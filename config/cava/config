@@ -72,7 +72,7 @@
 # 'noncurses' is for systems that does not suport ncurses.
 # 'raw' is a 16 bit data stream of the bar heights that can be used to send to other applications.
 # 'raw' defaults to 200 bars, which can be adjusted in the 'bars' option above.
-; method = ncurses
+method = ncurses
 
 # Visual channels. Can be 'stereo' or 'mono'.
 # 'stereo' mirrors both channels with low frequencies in center.
@@ -103,8 +103,8 @@
 # Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
 # Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires a
 # terminal that can change color definitions such as Gnome-terminal or rxvt.
-background = '#0a0a0a'
-foreground = '#DC143C'
+  background = '#0a0a0a'
+  foreground = '#dc143c'
 
 # Gradient mode, only hex defined colors are supported, background must also be defined in hex
 # or remain commented out. 1 = on, 0 = off. Warning: for certain terminal emulators cava will
