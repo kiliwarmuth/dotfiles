@@ -36,7 +36,6 @@ evince
 exa
 fakeroot
 feh
-ffmpeg-compat-57
 figlet
 file
 findutils

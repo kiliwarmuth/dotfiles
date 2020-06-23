@@ -2,7 +2,6 @@ aic94xx-firmware
 cava
 compton-tryone-git
 cpufetch-git
-ffmpeg-compat-57
 gotop
 i3-gaps-rounded-git
 i3lock-fancy-git
