@@ -28,6 +28,7 @@ diff-so-fancy
 discord
 dmenu
 dosfstools
+dropbox
 e2fsprogs
 easytag
 efibootmgr
