@@ -216,6 +216,7 @@ bindsym $mod+Shift+c exec compton --config ~/.config/compton/compton.conf --blur
 
 # autostart 
 exec --no-startup-id nextcloud
+exec --no-startup-id dropbox
 
 # change screen resolution, set wallpaper and start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
