@@ -50,6 +50,7 @@ gimp
 git
 gnome-calculator
 gnome-keyring
+gnu-netcat
 gotop
 gparted
 gptfdisk

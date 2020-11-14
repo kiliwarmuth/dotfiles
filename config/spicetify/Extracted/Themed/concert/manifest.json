@@ -1,7 +1,7 @@
 {
   "BundleIdentifier": "concert",
   "BundleType": "Application",
-  "BundleVersion": "1.1.10",
+  "BundleVersion": "1.1.42",
   "VendorIdentifier": "com.spotify",
   "UserInstallable": false,
   "AppDescription": {
@@ -20,6 +20,7 @@
     "id": "",
     "it": "",
     "ja": "",
+    "ko": "",
     "nl": "",
     "pl": "",
     "pt-BR": "",
@@ -47,6 +48,7 @@
     "id": "Concert",
     "it": "Concert",
     "ja": "Concert",
+    "ko": "Concert",
     "nl": "Concert",
     "pl": "Concert",
     "pt-BR": "Concert",
@@ -74,6 +76,7 @@
     "id",
     "it",
     "ja",
+    "ko",
     "nl",
     "pl",
     "pt-BR",
@@ -101,5 +104,5 @@
   "SkipLanguageValidation": true,
   "SkipUnrequireValidation": true,
   "SpmApp": true,
-  "GitRevision": "e08ef5751e"
+  "GitRevision": "bd11232048"
 }

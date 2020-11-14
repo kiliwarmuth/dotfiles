@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Spotify</title>
-    <link rel="stylesheet" href="css/glue.css" />
+    <link rel="stylesheet" href="https://local_resource_host/css/glue.css" />
   <link rel="stylesheet" href="css/zlink.css"><link rel="stylesheet" class="userCSS" href="css/user.css"></head>
   <body
     data-multi-select-disabled
@@ -29,7 +29,6 @@
           <!-- Navigation menu -->
           <nav
             role="navigation"
-            aria-label="Navigation"
             id="view-navigation-bar"
             class="flex-1 sidebar-navbar"
             tabindex="-1"
@@ -55,7 +54,7 @@
 
           <div id="offline-global-progress" class="flex-0-auto">
             <span></span>
-            <p style="width: 0%"></p>
+            <p style="width: 0%;"></p>
           </div>
 
           <div
@@ -143,11 +142,7 @@
                 <div class="now-playing__corner-buttons">
                   <div
                     aria-hidden="true"
-                    class="
-                      now-playing__button
-                      toggle-cover-size
-                      spoticon-chevron-down-16
-                    "
+                    class="now-playing__button toggle-cover-size spoticon-chevron-down-16"
                     data-ta-id="now-playing-image-large-resize-cover"
                     data-bind="
                       click: toggleViewMode,
@@ -159,11 +154,7 @@
                   <div
                     id="now-playing-toggle-full-screen"
                     aria-hidden="true"
-                    class="
-                      now-playing__button
-                      now-playing__button--toggleFullScreen
-                      spoticon-fullscreen-16
-                    "
+                    class="now-playing__button now-playing__button--toggleFullScreen spoticon-fullscreen-16"
                     data-bind="
                       visible: isToggleFullScreenVisible,
                       attr: {
@@ -204,7 +195,6 @@
               <div class="main-view flex-1 flex-col-container">
                 <header
                   id="header"
-                  role="banner"
                   class="content-top-bar"
                   data-interaction-context="zlink-header"
                 >
@@ -365,10 +355,7 @@
                 </header>
                 <div
                   id="floating-video"
-                  class="
-                    floating-video
-                    floating-video--is-in-full-header-mode
-                  "
+                  class="floating-video floating-video--is-in-full-header-mode"
                 >
                   <div class="floating-video__top-bar"></div>
                   <div
@@ -397,11 +384,10 @@
                   See https://ghe.spotify.net/desktop/client-desktop/pull/3359#discussion_r380995
                   For discussion and videos explaining this further.
                 -->
-                <div
+                <main
                   id="view-content"
                   tabindex="-1"
                   class="flex-1"
-                  role="main"
                   data-bind="
                     css: {
                       disablePointerEvents: disablePointerEvents()
@@ -410,13 +396,16 @@
                 >
                   <a id="content-anchor" class="anchor" tabindex="-1"></a>
                   <div id="view-video-ad"></div>
-                </div>
+                </main>
               </div>
             </div>
             <div
               id="view-buddy-list"
               class="flex-col-container"
               role="complementary"
+              data-bind="attr: {
+                'aria-label': buddyListA11yLabel(),
+              }"
             >
               <div
                 id="resize-buddy-list"
@@ -522,7 +511,8 @@
                 },
                 attr: {
                   'ad-type': adType(),
-                  'data-ta-is-ad': isAd()
+                  'data-ta-is-ad': isAd(),
+                  'aria-label': nowPlayingA11yLabel()
                 },
                 click: onLinkClicked
               "
@@ -594,7 +584,6 @@
                         'two-icons': showFeedback(),
                         'thumbs-up': trackThumbedUp(),
                         'thumbs-down': trackThumbedDown(),
-                        'thumbs-none': !trackThumbedUp() && !trackThumbedDown(),
                         'feedback-enabled': showFeedback()
                       },
                       attr: {
@@ -655,57 +644,38 @@
                       </div>
                       <button
                         class="nowplaying-add-button button button-icon-only button-add"
-                        data-bind="visible: _showAddButton(),
-                      click: logAddButton,
-                       attr: {
+                        data-ta-id="nowplaying-add-button"
+                        data-bind="visible: showAddButton(),
+                        click: logAddButton,
+                        attr: {
+                          disabled: thumbUpDisabled,
                           'data-uri': trackURI() || '',
+                          'data-tooltip': addLabel,
                           'data-tooltip-container': tooltipContainerSelector(),
-                          'data-tooltip-add': SAVE_YOUR_MUSIC,
-                          'data-tooltip-remove': REMOVE_YOUR_MUSIC
+                          'data-tooltip-add': ADD_TO_YOUR_LIKED_SONGS,
+                          'data-tooltip-remove': REMOVE_FROM_YOUR_LIKED_SONGS,
+                          'aria-label': addLabel,
+                          'data-ta-visible': showAddButton()
                         }"
                         data-button="add"
                         data-interaction-target="save-remove-button"
                         data-interaction-intent="save"
                       ></button>
                       <button
-                        class="nowplaying-heart-button button button-icon-only button-heart"
-                        data-ta-id="nowplaying-heart-button"
-                        data-bind="visible: _showHeartButton(),
-                        css: {
-                          active: trackThumbedUp,
-                          'spoticon-heart-active-16': trackThumbedUp,
-                          'spoticon-heart-16': !trackThumbedUp()
-                        },
-                        click: heart,
-                        attr: {
-                          disabled: thumbUpDisabled,
-                          'data-tooltip': heartLabel,
-                          'data-tooltip-heart': HEART_LABEL,
-                          'data-tooltip-undo': UNDO_HEART_LABEL,
-                          'data-tooltip-container': tooltipContainerSelector(),
-                          'aria-label': 'heartLabel',
-                          'data-uri': trackURI,
-                          'data-interaction-intent': trackThumbedUp() ? 'undo-heart' : 'heart',
-                          'data-button': trackThumbedUp() ? 'undo-heart' : 'heart',
-                          'data-ta-visible': !isAd() && !isVideo() && !isLocal() && showFeedback()
-                        }"
-                        data-interaction-target="heart-button"
-                      ></button>
-                      <button
                         class="nowplaying-ban-button button button-icon-only button-ban spoticon-ban-16"
                         data-ta-id="nowplaying-ban-button"
-                        data-bind="visible: !isAd() && !isVideo() && !isLocal() && showFeedback(),
+                        data-bind="visible: showBanMenu,
                         click: showBanOptions,
                         attr: {
                           disabled: thumbDownDisabled,
                           'data-button': showBanMenu() ? 'contextmenu' : '',
                           'data-uri': banUri,
                           'data-tooltip': banLabel,
-                          'data-tooltip-ban': formatListFeedbackMode() ? FORMAT_LIST_BAN_LABEL : BAN_LABEL,
-                          'data-tooltip-undo': FORMAT_LIST_UNDO_BAN_LABEL,
                           'data-tooltip-container': tooltipContainerSelector(),
+                          'data-tooltip-ban': BAN_LABEL,
+                          'data-tooltip-undo': UNDO_BAN_LABEL,
                           'aria-label': banLabel,
-                          'data-ta-visible': !isAd() && !isVideo() && !isLocal() && showFeedback()
+                          'data-ta-visible': showBanMenu
                         }"
                         data-interaction-target="ban-button"
                         data-interaction-intent="show-ban-options"
@@ -798,29 +768,6 @@
               <a id="player-anchor" class="anchor" tabindex="-1"></a>
               <button
                 type="button"
-                id="player-button-thumbs-down"
-                name="thumbs-down"
-                data-non-active-element
-                class="button-thumbs-down button spoticon-thumbs-down-16"
-                data-ta-id="player-button-thumbs-down"
-                data-bind="
-                  css: {
-                    active: trackThumbedDown,
-                    hidden: !showThumbs() || isSkippableAdBreak()
-                  },
-                  click: thumbDown,
-                  attr: {
-                    disabled: thumbDownDisabled,
-                    'data-tooltip': thumbDownLabel,
-                    'data-tooltip-container': tooltipContainerSelector(),
-                    'aria-label': thumbDownLabel,
-                    'aria-pressed': trackThumbedDown() ? 'true' : 'false'
-                  }"
-                data-interaction-target="track-thumb-down-button"
-                data-interaction-intent="track-thumb-down"
-              ></button>
-              <button
-                type="button"
                 id="player-button-shuffle"
                 name="shuffle"
                 data-non-active-element
@@ -830,7 +777,7 @@
                 data-bind="
                   css: {
                     active: shuffle,
-                    hidden: (showThumbs() || showSkipBack()) || isSkippableAdBreak()
+                    hidden: showSkipBack() || isSkippableAdBreak()
                   },
                   click: toggleShuffle,
                   attr: {
@@ -913,7 +860,7 @@
                       'aria-label': nextLabel
                     },
                     css: {
-                      invisible: isSkipCountdown(),
+                      invisible: (skipCountdownRemainingSecs() > 0),
                       'skip-countdown-transition': isSkippableAdBreak()
                     },
                     click: skipToNext"
@@ -923,8 +870,8 @@
                 <div
                   id="skip-countdown"
                   class="skip-countdown"
-                  data-bind="html: skipCountdown,
-                    css: { invisible: !isSkipCountdown() }"
+                  data-bind="html: skipCountdownText,
+                    css: { invisible: (skipCountdownRemainingSecs() == 0) }"
                 ></div>
                 <div id="skippable-ad-indicator"></div>
               </div>
@@ -954,7 +901,7 @@
                 class="button-repeat button"
                 data-ta-id="player-button-repeat"
                 data-bind="
-                  css: repeatIcon() + ((showThumbs() || showSkipForward() || isSkippableAdBreak()) ? ' hidden' : ''),
+                  css: repeatIcon() + ((showSkipForward() || isSkippableAdBreak()) ? ' hidden' : ''),
                   click: toggleRepeat,
                   attr: {
                     disabled: !repeatEnabled(),
@@ -965,29 +912,6 @@
                   }"
                 data-interaction-target="toggle-repeat-button"
                 data-interaction-intent="toggle-repeat"
-              ></button>
-              <button
-                type="button"
-                id="player-button-thumbs-up"
-                name="thumbs-up"
-                data-non-active-element
-                class="button-thumbs-up button spoticon-thumbs-up-16"
-                data-ta-id="player-button-thumbs-up"
-                data-bind="
-                  css: {
-                    active: trackThumbedUp,
-                    hidden: !showThumbs() || isSkippableAdBreak()
-                  },
-                  click: thumbUp,
-                  attr: {
-                    disabled: thumbUpDisabled,
-                    'data-tooltip': thumbUpLabel,
-                    'data-tooltip-container': tooltipContainerSelector(),
-                    'aria-label': thumbUpLabel,
-                    'aria-pressed': trackThumbedUp() ? 'true' : 'false'
-                  }"
-                data-interaction-target="track-thumb-up-button"
-                data-interaction-intent="track-thumb-up"
               ></button>
             </div>
             <!-- Ends .controls -->
@@ -1077,7 +1001,7 @@
               class="lyrics-button button button-lyrics spoticon-lyrics-16"
               data-bind="
                 css: {
-                  hidden: !lyricsEnabled()
+                  hidden: !(lyricsEnabled() && trackHasLyrics())
                 },
                 attr: {
                   'data-tooltip': LYRICS_LABEL,
@@ -1093,6 +1017,20 @@
               id="playback-speed-controls-root"
               data-disable-old-interaction-logging
             ></div>
+
+            <button
+              type="button"
+              id="player-button-darkmode"
+              name="darkmode"
+              class="darkmode-button button button-devices spoticon-device-tv-16"
+              data-ta-id="player-button-darkmode"
+              data-bind="
+                visible: enableDarkMode,
+                click: switchToDarkmode
+              "
+              data-interaction-target="open-darkmode-button"
+              data-interaction-intent="open-darkmode"
+            ></button>
 
             <button
               type="button"
@@ -1387,13 +1325,15 @@
           <p>
             <span
               data-bind="
-                html: barMessage,
+                html: activeDeviceIcon,
                 click: onClickBarMessage
               "
             ></span>
             <span
-              id="SocialListeningListenerCount"
-              data-bind="visible: showBar"
+              data-bind="
+                html: barMessage,
+                click: onClickBarMessage
+              "
             ></span>
           </p>
         </div>
