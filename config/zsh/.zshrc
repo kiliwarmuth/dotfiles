@@ -59,7 +59,7 @@ alias upd='sudo pacman -Syu && yay -Syu'
 
 # navigation
 alias cdc='cd ~/.config/'
-alias cds='cd ~/Dropbox/Uni/Semester_6'
+alias cds='cd ~/Dropbox/Uni'
 
 # better alternatives
 

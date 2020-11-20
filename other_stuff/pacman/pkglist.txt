@@ -92,6 +92,7 @@ network-manager-applet
 nextcloud-client
 nmap
 ntfs-3g
+obs-studio
 onefetch
 openssh
 pacman
