@@ -45,7 +45,7 @@ alias colorpanes='bash ~/.bin/scripts/colorpanes.sh'
 alias matrix='unimatrix -c red -s 96 -l 'o' -n'
 alias neofetch='neofetch | lolcat && colorpanes'
 alias pipes=pipes.sh
-alias please='sudo !!'
+alias please='sudo $(fc -ln -1)'
 
 # git
 alias ga='git add'
