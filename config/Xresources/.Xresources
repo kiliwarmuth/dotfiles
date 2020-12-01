@@ -73,5 +73,5 @@ rofi.padding:               0
 rofi.separator-style:       none
 rofi.hide-scrollbar:        true
 rofi.line-margin:           0
-rofi.font:                  Hack 14
+rofi.font:                  Hack 16
 rofi.theme:		    ~/.config/rofi/config.rasi
