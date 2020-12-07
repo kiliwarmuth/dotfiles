@@ -107,6 +107,7 @@ polybar
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
+python-dbus
 ranger
 rkhunter
 rofi
