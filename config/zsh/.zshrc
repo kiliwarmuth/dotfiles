@@ -55,7 +55,7 @@ alias gs="git add . && git commit -a -m 'updated' && git push"
 
 # maintenance
 alias clean='yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && yay -Sc --noconfirm && sudo pacman -Rns $(pacman -Qtdq)'
-alias upd='sudo pacman -Syu && yay -Syu'
+alias upd='yay -Syyu'
 
 # navigation
 alias cdc='cd ~/.config/'
