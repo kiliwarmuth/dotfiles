@@ -236,6 +236,7 @@ for_window [class="VirtualBox Machine"] move to workspace $ws10
 # floating settings
 for_window [class="mpv"] floating enable
 for_window [class="calculator"] floating enable
+for_window [class="jetbrains toolbox"] floating enable
 for_window [window_role="pop-up"] floating enable
 
 # brightness Keybindings
