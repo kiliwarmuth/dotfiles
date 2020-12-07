@@ -41,8 +41,9 @@ cp -ru ~/.themes/Custom-Dark/* ~/Dokumente/Github/dotfiles/themes/Custom-Dark-GT
 cp -ru ~/.config/compton/compton.conf ~/Dokumente/Github/dotfiles/config/compton
 # grub
 cp -ru /etc/default/grub ~/Dokumente/Github/dotfiles/other_stuff/grub
-# script
+# scripts
 cp -ru ~/.bin/scripts/dotfiles.sh ~/Dokumente/Github/dotfiles/bin/scripts
+cp -ru ~/.bin/scripts/removable_disks.sh ~/Dokumente/Github/dotfiles/bin/scripts
 cp -ru ~/.bin/scripts/spotify_status.py ~/Dokumente/Github/dotfiles/bin/scripts
 # update list of installed packages
 pacman -Qqe > ~/Dokumente/Github/dotfiles/other_stuff/pacman/pkglist.txt

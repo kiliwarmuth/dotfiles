@@ -66,6 +66,7 @@ i3lock
 i3lock-fancy-git
 inetutils
 intel-ucode
+jq
 jre-openjdk
 keychain
 korla-icon-theme-git
