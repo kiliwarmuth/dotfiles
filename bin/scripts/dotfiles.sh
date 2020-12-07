@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # copy config files
 
 # i3
