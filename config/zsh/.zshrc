@@ -75,6 +75,7 @@ alias la='exa -lah'
 alias off='poweroff'
 alias pls='sudo'
 alias ra=ranger
+alias upgrade_oh_my_zsh='omz update'
 alias v=nvim
 alias vi=vim
 
