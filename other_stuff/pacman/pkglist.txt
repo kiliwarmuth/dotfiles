@@ -123,6 +123,7 @@ sed
 sl
 spicetify-cli
 spotify
+stress
 sudo
 systemd
 texinfo
