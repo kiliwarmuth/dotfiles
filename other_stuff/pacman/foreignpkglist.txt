@@ -7,7 +7,6 @@ gotop
 i3-gaps-rounded-git
 i3lock-fancy-git
 korla-icon-theme-git
-onefetch
 pfetch-git
 pipes.sh
 polybar
