@@ -97,6 +97,7 @@ onefetch
 openssh
 pacman
 pacman-contrib
+paru
 patch
 pavucontrol
 pfetch-git
