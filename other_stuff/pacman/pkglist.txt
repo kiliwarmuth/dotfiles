@@ -21,6 +21,7 @@ cowsay
 cpufetch-git
 cronie
 cups
+dbus-python
 dhclient
 dhcpcd
 dialog
@@ -110,7 +111,6 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 python-cryptography
-python-dbus
 python-pycrypto
 ranger
 rkhunter
