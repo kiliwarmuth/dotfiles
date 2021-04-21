@@ -14632,6 +14632,28 @@ a.list-group-item.active .list-group-item-text {
 .alert a {
   border-bottom: solid 1px var(--modspotify_main_fg) !important;
 }
+.alert.alert-icon {
+  display: flex;
+  align-items: center;
+}
+.alert.alert-icon {
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+.alert.alert-icon {
+  text-align: left;
+}
+
+.alert.alert-icon svg {
+  flex-shrink: 0;
+}
+.alert.alert-icon::before {
+  display: none;
+}
+.alert.alert-icon *:not(:last-child) {
+  margin-right: 10px;
+}
+
 
 .alert-success {
   background-color: var(--modspotify_indicator_fg_and_button_bg);
@@ -14647,7 +14669,7 @@ a.list-group-item.active .list-group-item-text {
 }
 
 .alert-danger {
-  background-color: var(--modspotify_miscellaneous_bg);
+  background-color: var(--modspotify_miscellaneous_hover_bg);
 }
 .alert-danger .alert-link {
   color:  var(--modspotify_main_fg);
@@ -19557,6 +19579,44 @@ th {
     width: 70px;
   }
 }
+@keyframes loopArtists-ltr {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes loopArtists-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.tracklist-playlist .tl-artists__episode__wrapper {
+  display: grid;
+}
+.tracklist-playlist tr:not(.current) .tl-artists__episode--collapsed {
+  color: var(--modspotify_main_fg);
+}
+.tracklist-playlist .tl-artists__episode {
+  display: none;
+}
+.tracklist-playlist .tl-artists__episode__wrapper:hover .tl-artists__episode {
+  display: block;
+}
+.tracklist-playlist .tl-artists__episode__wrapper:hover .tl-artists__episode--collapsed {
+  display: none;
+}
+.tracklist-playlist .tl-artists__episode:hover {
+  animation-duration: calc(var(--artistCount) * 1.5s);
+  animation-timing-function: ease-in;
+  animation-name:  loopArtists-ltr ;
+  animation-iteration-count: infinite;
+}
+
 
 /*
  * Podcast
@@ -19625,6 +19685,41 @@ th {
   padding-right: 16px;
 }
 
+.tracklist-podcast .tl-name__description__artists {
+  white-space: normal;
+  color: var(--modspotify_main_fg);
+  display: grid;
+  grid-gap: 8px;
+  grid-auto-flow: column;
+  justify-content: start;
+}
+.tracklist-podcast .tl-name__description__artists {
+  margin-bottom: 8px;
+}
+.tracklist-podcast .tl-name__description__artists {
+  padding-right: 16px;
+}
+
+.tracklist-podcast .tl-name__description__artists__icon::before {
+  font-family: "glue-spoticon";
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  line-height: inherit;
+  vertical-align: bottom;
+  content: "\f134";
+  font-size: 16px;
+  line-height: inherit;
+}
+.tracklist-podcast .tl-name__description__artists--clamped {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow-wrap: break-word;
+}
 .tracklist-podcast .tl-name__description--clamped {
   overflow: hidden;
   text-overflow: ellipsis;

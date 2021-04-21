@@ -54,7 +54,7 @@
 
           <div id="offline-global-progress" class="flex-0-auto">
             <span></span>
-            <p style="width: 0%;"></p>
+            <p style="width: 0%"></p>
           </div>
 
           <div
@@ -318,7 +318,7 @@
                               css: { incognito: privateSession }
                             "
                             class="username"
-                            data-ta-id="current-user-name"
+                            data-testid="user-widget-name"
                             dir="auto"
                           >
                           </span>
@@ -612,16 +612,20 @@
                           data-bind="css: { scroll: trackScrollable },
                           event: {
                             mouseover: onTextMouseOver,
-                            mouseout: onTextMouseOut
+                            mouseout: onTextMouseOut,
+                            click: (isPodcastAd && !missingNowPlayingURI()) ? onAdClicked : undefined
                           }"
                         >
                           <span>
                             <span class="inner-text-span">
                               <a
                                 data-bind="attr: {
-                                href: relinkedTrackURI() || trackURI(),
-                                'data-uri': isAd() ? adInfo : trackURI
-                              }, text: name"
+                                    href: nowPlayingURI(),
+                                    'data-uri': isAd() ? adInfo : trackURI
+                                  },
+                                  text: name,
+                                  style: { 'pointer-events': isPodcastAd && missingNowPlayingURI() ? 'none' : undefined }
+                                "
                                 id="nowplaying-track-link"
                                 data-interaction-target="track"
                               ></a>
@@ -633,7 +637,7 @@
                           >
                             <a
                               data-bind="attr: {
-                              href: relinkedTrackURI() || trackURI(),
+                              href: nowPlayingURI(),
                               'data-uri': isAd() ? adInfo : trackURI
                             }, text: name"
                               dir="auto"
