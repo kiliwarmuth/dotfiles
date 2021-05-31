@@ -41,6 +41,8 @@ cp -ru ~/.themes/Custom-Dark/* ~/Dokumente/Github/dotfiles/themes/Custom-Dark-GT
 cp -ru ~/.config/compton/compton.conf ~/Dokumente/Github/dotfiles/config/compton
 # grub
 cp -ru /etc/default/grub ~/Dokumente/Github/dotfiles/other_stuff/grub
+# htop
+cp -ru ~/.config/htop/htoprc ~/Dokumente/Github/dotfiles/config/htop
 # scripts
 cp -ru ~/.bin/scripts/dotfiles.sh ~/Dokumente/Github/dotfiles/bin/scripts
 cp -ru ~/.bin/scripts/removable_disks.sh ~/Dokumente/Github/dotfiles/bin/scripts
