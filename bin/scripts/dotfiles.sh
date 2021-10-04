@@ -11,7 +11,7 @@ cp -ru ~/.config/ranger/rc.conf ~/Dokumente/Github/dotfiles/config/ranger
 cp -ru ~/.config/ranger/rifle.conf ~/Dokumente/Github/dotfiles/config/ranger
 cp -ru ~/.config/ranger/scope.sh ~/Dokumente/Github/dotfiles/config/ranger
 # rofi
-cp -ru ~/.config/rofi/config.rasi ~/Dokumente/Github/dotfiles/config/rofi
+cp -ru ~/.config/rofi/ ~/Dokumente/Github/dotfiles/config/
 # zathura
 cp -ru ~/.config/zathura/zathurarc ~/Dokumente/Github/dotfiles/config/zathura
 # Xresources

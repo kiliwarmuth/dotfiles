@@ -53,7 +53,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+q kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show drun
+#bindsym $mod+d exec rofi -show drun
+bindsym $mod+d exec /home/kili/.config/rofi/launchers/colorful/launcher.sh
 bindsym $mod+Shift+d exec rofi -show run
 
 # rofi-bluetooth
@@ -173,7 +174,8 @@ bindsym $mod+Shift+u reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec ~/.config/i3/lock.sh
+#bindsym $mod+Shift+e exec ~/.config/i3/lock.sh
+bindsym $mod+Shift+e exec ~/.config/rofi/applets/menu/powermenu.sh
 bindsym $mod+Shift+q exec i3-msg exit
 
 # resize window (you can also use the mouse for that)
