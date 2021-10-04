@@ -122,8 +122,6 @@ scrot
 seahorse
 sed
 sl
-spicetify-cli
-spotify
 stress
 sudo
 systemd

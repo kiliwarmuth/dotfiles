@@ -13,8 +13,6 @@ pfetch-git
 pipes.sh
 polybar
 python-pycrypto
-spicetify-cli
-spotify
 tor-browser
 tty-clock
 unimatrix-git
