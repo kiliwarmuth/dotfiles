@@ -11,7 +11,7 @@
 # style_1     style_2     style_3     style_4     style_5     style_6
 # style_7     style_8     style_9     style_10    style_11    style_12
 
-theme="style_7"
+theme="style_9"
 dir="$HOME/.config/rofi/launchers/colorful"
 
 # dark

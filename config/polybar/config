@@ -253,7 +253,7 @@ ramp-volume-2 = 
 type = custom/script
 exec = ~/.bin/scripts/rofi-bluetooth.sh --status
 interval = 1
-click-left = ~/.bin/rofi-bluetooth/rofi-bluetooth.sh &
+click-left = ~/.bin/scripts/rofi-bluetooth.sh &
 
 [module/removable-disks]
 type = custom/script
