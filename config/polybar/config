@@ -66,7 +66,7 @@ font-2 = FontAwesome:style=Regular:size=11;2
 font-3 = FontAwesome5Free:style=Regular:size=11;2
 font-4 = FontAwesome5Brands:style=Regular:size=11;2
 
-modules-left = i3 memory cpu temperature pulseaudio spotify removable-disks
+modules-left = i3 memory cpu temperature pulseaudio removable-disks
 modules-center = xwindow
 modules-right = wlan bluetooth battery date
 
@@ -254,13 +254,6 @@ type = custom/script
 exec = ~/.bin/scripts/rofi-bluetooth.sh --status
 interval = 1
 click-left = ~/.bin/rofi-bluetooth/rofi-bluetooth.sh &
-
-[module/spotify]
-type = custom/script
-interval = 1
-format-prefix = " "
-format = <label>
-exec = python ~/.bin/scripts/spotify_status.py -f '{artist}: {song}'
 
 [module/removable-disks]
 type = custom/script

@@ -42,9 +42,7 @@ cp -ru /etc/default/grub ~/Dokumente/Github/dotfiles/other_stuff/grub
 # htop
 cp -ru ~/.config/htop/htoprc ~/Dokumente/Github/dotfiles/config/htop
 # scripts
-cp -ru ~/.bin/scripts/dotfiles.sh ~/Dokumente/Github/dotfiles/bin/scripts
-cp -ru ~/.bin/scripts/removable_disks.sh ~/Dokumente/Github/dotfiles/bin/scripts
-cp -ru ~/.bin/scripts/rofi-bluetooth.sh ~/Dokumente/Github/dotfiles/bin/scripts
+cp -ru ~/.bin/scripts/* ~/Dokumente/Github/dotfiles/bin/scripts
 # update list of installed packages
 pacman -Qqe > ~/Dokumente/Github/dotfiles/other_stuff/pacman/pkglist.txt
 pacman -Qqem > ~/Dokumente/Github/dotfiles/other_stuff/pacman/foreignpkglist.txt
