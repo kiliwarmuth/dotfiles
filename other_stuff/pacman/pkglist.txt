@@ -92,7 +92,6 @@ ncdu
 neofetch
 neovim
 network-manager-applet
-nextcloud-client
 nmap
 ntfs-3g
 onefetch
