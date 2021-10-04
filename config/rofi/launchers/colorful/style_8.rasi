@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 10";
+	font:							"Hack 11";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"Applications";
@@ -26,7 +26,7 @@ window {
 	border:							0px;
 	border-color:					@ac;
     border-radius:                  0px;
-	width:							35%;
+	width:							40%;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -37,7 +37,7 @@ prompt {
 	padding: 						1% 0.75% 1% 0.75%;
 	background-color: 				@ac;
 	text-color: 					@fg;
-	font:							"Iosevka Nerd Font 12";
+	font:							"Hack 13";
 }
 
 textbox-prompt-colon {
