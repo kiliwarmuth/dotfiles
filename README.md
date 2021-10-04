@@ -4,7 +4,7 @@
 - **Bar**: polybar
 - **Terminal**: urxvt
 - **Shell**: zsh
-- **Menu**: rofi
+- **Menu**: [rofi](https://github.com/adi1090x/rofi)
 - **OS**: Arch Linux
 
       I use Arch btw 
