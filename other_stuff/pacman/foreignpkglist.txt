@@ -1,5 +1,6 @@
 aic94xx-firmware
 cava
+cbonsai
 clion
 compton-tryone-git
 cpufetch-git

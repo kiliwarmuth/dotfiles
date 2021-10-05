@@ -15,6 +15,7 @@ bluez-utils
 brightnessctl
 capitaine-cursors
 cava
+cbonsai
 clion
 code
 compton-tryone-git

@@ -33,7 +33,6 @@ font pango:Hack 8
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend.
 exec --no-startup-id xss-lock -- ~/.config/i3/lock.sh
-#exec --no-startup-id xss-lock -- ~/.config/i3/lock.sh --transfer-sleep-lock
 
 # lock screen after 10 minutes of idle
 #exec --no-startup-id xautolock -locker '~/.config/i3/lock.sh' &
