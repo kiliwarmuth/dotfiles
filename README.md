@@ -20,10 +20,10 @@
 
 
 ---
-![Screenshot](https://github.com/089kili/dotfiles/blob/master/themes/screenshots/main.png)
+![Screenshot](https://github.com/089kili/dotfiles/blob/master/screenshots/main.png)
 ---
-![Screenshot](https://github.com/089kili/dotfiles/blob/master/themes/screenshots/rofi.png)
+![Screenshot](https://github.com/089kili/dotfiles/blob/master/screenshots/rofi.png)
 ---
-![Screenshot](https://github.com/089kili/dotfiles/blob/master/themes/screenshots/rofi2.png)
+![Screenshot](https://github.com/089kili/dotfiles/blob/master/screenshots/rofi2.png)
 ---
-![Screenshot](https://github.com/089kili/dotfiles/blob/master/themes/screenshots/old_spotify.png)
+![Screenshot](https://github.com/089kili/dotfiles/blob/master/screenshots/old_spotify.png)
