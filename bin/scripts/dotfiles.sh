@@ -22,9 +22,9 @@ cp -ru ~/.vimrc ~/Dokumente/Github/dotfiles/config/vim
 cp -ru ~/.zshrc ~/Dokumente/Github/dotfiles/config/zsh
 cp -ru ~/.oh-my-zsh/themes/robbyrussell.zsh-theme ~/Dokumente/Github/dotfiles/config/zsh
 # sonstiges
-cp -ru ~/.xinitrc ~/Dokumente/Github/dotfiles/other_stuff/random_config/.xinitrc
-cp -ru ~/.zprofile ~/Dokumente/Github/dotfiles/other_stuff/random_config/.zprofile
-cp -ru /etc/X11/xorg.conf.d/90-touchpad.conf ~/Dokumente/Github/dotfiles/other_stuff/random_config/90-touchpad.conf
+cp -ru ~/.xinitrc ~/Dokumente/Github/dotfiles/config/random_config/.xinitrc
+cp -ru ~/.zprofile ~/Dokumente/Github/dotfiles/config/random_config/.zprofile
+cp -ru /etc/X11/xorg.conf.d/90-touchpad.conf ~/Dokumente/Github/dotfiles/config/random_config/90-touchpad.conf
 # vscode
 cp -ru ~/.config/Code\ -\ OSS/User/settings.json ~/Dokumente/Github/dotfiles/config/vscode
 # neofetch
@@ -48,4 +48,3 @@ pacman -Qqe > ~/Dokumente/Github/dotfiles/other_stuff/pacman/pkglist.txt
 pacman -Qqem > ~/Dokumente/Github/dotfiles/other_stuff/pacman/foreignpkglist.txt
 # pacman hooks
 cp -ru /etc/pacman.d/hooks/* ~/Dokumente/Github/dotfiles/other_stuff/pacman
-
