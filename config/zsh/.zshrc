@@ -54,8 +54,8 @@ alias gis='git status'
 alias gs="git add . && git commit -a -m 'updated' && git push"
 
 # maintenance
-alias clean='yay -Yc && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && yay -Sc --noconfirm && sudo pacman -Rns $(pacman -Qtdq)'
-alias upd='yay -Syyu'
+alias clean='cowsay -f tux "cleaning..." | lolcat && paru -Scc --noconfirm && sudo paccache -rk 1 && sudo pacman -Sc --noconfirm && sudo pacman -Rns $(pacman -Qtdq)'
+alias upd='cowsay -f tux "updating..." |lolcat && paru'
 
 # navigation
 alias cdc='cd ~/.config/'

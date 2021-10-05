@@ -6,7 +6,7 @@ cpufetch-git
 dropbox
 gotop
 i3-gaps-rounded-git
-i3lock-fancy-git
+i3lockr-bin
 korla-icon-theme-git
 paru
 pfetch-git
@@ -18,4 +18,3 @@ tty-clock
 unimatrix-git
 wd719x-firmware
 xidlehook
-yay

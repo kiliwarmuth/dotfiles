@@ -32,7 +32,6 @@ dmenu
 dosfstools
 dropbox
 e2fsprogs
-easytag
 efibootmgr
 eog
 evince
@@ -65,7 +64,7 @@ gzip
 htop
 i3-gaps-rounded-git
 i3lock
-i3lock-fancy-git
+i3lockr-bin
 inetutils
 intel-ucode
 jq
@@ -180,7 +179,6 @@ xorg-xinit
 xorg-xprop
 xorg-xrandr
 xss-lock
-yay
 youtube-dl
 zathura
 zathura-pdf-mupdf
