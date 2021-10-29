@@ -111,6 +111,7 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 python-cryptography
+python-pip
 python-pycrypto
 ranger
 rkhunter
