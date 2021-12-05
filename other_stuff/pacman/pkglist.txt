@@ -30,6 +30,7 @@ dialog
 diff-so-fancy
 discord
 dmenu
+docker
 dosfstools
 dropbox
 e2fsprogs
@@ -80,6 +81,7 @@ libtool
 linux
 linux-firmware
 lolcat
+lsof
 lxappearance
 m4
 make
