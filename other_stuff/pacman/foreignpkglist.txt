@@ -15,6 +15,7 @@ pipes.sh
 polybar
 python-pycrypto
 tor-browser
+tstock
 tty-clock
 unimatrix-git
 wd719x-firmware

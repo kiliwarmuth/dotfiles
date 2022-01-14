@@ -143,6 +143,7 @@ texlive-publishers
 texlive-science
 tor
 tor-browser
+tstock
 ttf-font-awesome
 ttf-hack
 tty-clock
