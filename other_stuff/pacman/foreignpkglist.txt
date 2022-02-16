@@ -13,8 +13,8 @@ paru
 pfetch-git
 pipes.sh
 polybar
+postman-bin
 python-pycrypto
-tor-browser
 tstock
 tty-clock
 unimatrix-git

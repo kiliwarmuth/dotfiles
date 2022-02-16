@@ -16,6 +16,7 @@ brightnessctl
 capitaine-cursors
 cava
 cbonsai
+chromium
 clion
 code
 compton-tryone-git
@@ -31,6 +32,7 @@ diff-so-fancy
 discord
 dmenu
 docker
+docker-compose
 dosfstools
 dropbox
 e2fsprogs
@@ -109,6 +111,7 @@ pkgconf
 pkgfile
 playerctl
 polybar
+postman-bin
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -141,8 +144,6 @@ texlive-pictures
 texlive-pstricks
 texlive-publishers
 texlive-science
-tor
-tor-browser
 tstock
 ttf-font-awesome
 ttf-hack
