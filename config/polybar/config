@@ -61,9 +61,9 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = Hack:style=bold:pixelsize=11;1
-font-1 = FontAwesome5Free:style=Solid:size=11;2
-font-2 = FontAwesome:style=Regular:size=11;2
-font-3 = FontAwesome5Free:style=Regular:size=11;2
+font-1 = FontAwesome6Free:style=Solid:size=11;2
+font-2 = FontAwesome6Free:style=Regular:size=11;2
+font-3 = FontAwesome6Free:style=Regular:size=11;2
 font-4 = FontAwesome5Brands:style=Regular:size=11;2
 
 modules-left = i3 memory cpu temperature pulseaudio removable-disks
