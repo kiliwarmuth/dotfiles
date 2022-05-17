@@ -17,6 +17,7 @@ capitaine-cursors
 cava
 cbonsai
 chromium
+cider
 clion
 code
 compton-tryone-git
@@ -97,6 +98,7 @@ neofetch
 neovim
 network-manager-applet
 nmap
+npm
 ntfs-3g
 onefetch
 openssh

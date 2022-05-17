@@ -1,6 +1,7 @@
 aic94xx-firmware
 cava
 cbonsai
+cider
 clion
 compton-tryone-git
 cpufetch-git
@@ -12,7 +13,6 @@ korla-icon-theme-git
 paru
 pfetch-git
 pipes.sh
-polybar
 postman-bin
 python-pycrypto
 tstock
