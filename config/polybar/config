@@ -68,7 +68,7 @@ font-4 = FontAwesome5Brands:style=Regular:size=11;2
 
 modules-left = i3 memory cpu temperature pulseaudio removable-disks
 modules-center = xwindow
-modules-right = wlan bluetooth battery date
+modules-right = wlan battery date
 
 tray-position = right
 tray-padding = 5

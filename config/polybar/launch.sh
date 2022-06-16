@@ -4,7 +4,7 @@
 xrandr && xrandr --output eDP1 --mode 1920x1080
 
 # load background
-feh --bg-fill ~/Media/Bilder/Wallpaper/Arch_Arena_Wallpaper_ROT.png
+feh --bg-fill ~/Media/Bilder/Wallpaper/Arena.jpg
 
 # Terminate already running bar instances
 killall -q polybar

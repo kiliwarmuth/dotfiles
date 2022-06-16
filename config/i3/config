@@ -42,6 +42,9 @@ exec --no-startup-id xidlehook --not-when-fullscreen --not-when-audio --timer 60
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# start bluetooth applet (blueman)
+exec --no-startup-id blueman-applet
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 

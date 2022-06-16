@@ -32,7 +32,6 @@ dialog
 diff-so-fancy
 discord
 dmenu
-docker
 docker-compose
 dosfstools
 dropbox
