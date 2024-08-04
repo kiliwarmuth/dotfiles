@@ -10,9 +10,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# marketstack API Key for tstock cli
-export MARKETSTACK_API_KEY=91f1be73aa644177436ccaed6af58774
-
 ZSH_THEME="robbyrussell"
 
 plugins=(git colored-man-pages colorize command-not-found copypath copyfile)
